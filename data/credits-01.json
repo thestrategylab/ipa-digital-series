@@ -1,0 +1,242 @@
+[
+  {
+    "file": "assets/img/s01/google-search-plumbing-contractors-pune.png",
+    "type": "screenshot",
+    "source": "Google Search results for 'plumbing contractors in Pune' (public page, logged out, hl=en, gl=in), 1440x900 headless Chrome",
+    "licence": "Screenshot of a public page, used as illustration; Google and Google Maps are trademarks of Google LLC",
+    "url": "https://www.google.com/search?q=plumbing+contractors+in+Pune&hl=en&gl=in",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/google-search-hospital-plumbing-contractor-pune.png",
+    "type": "screenshot",
+    "source": "Google Search results for 'hospital plumbing contractor Pune' (public page, logged out), 1440x900 headless Chrome",
+    "licence": "Screenshot of a public page, used as illustration; Google is a trademark of Google LLC",
+    "url": "https://www.google.com/search?q=hospital+plumbing+contractor+Pune&hl=en&gl=in",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/google-search-aquapulse-plumbing-pune.png",
+    "type": "screenshot",
+    "source": "Google Search results for 'Aquapulse Plumbing and services Pune' showing the business knowledge panel (public page, logged out), 1440x900 headless Chrome",
+    "licence": "Screenshot of a public page, used as a good example with the business named; Google is a trademark of Google LLC",
+    "url": "https://www.google.com/search?q=Aquapulse+Plumbing+and+services+Pune&hl=en&gl=in",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/google-maps-aquapulse-plumbing-pune.png",
+    "type": "screenshot",
+    "source": "Google Maps listing of Aquapulse Plumbing and services, Bibwewadi, Pune (public page, logged out), 1440x900 headless Chrome",
+    "licence": "Screenshot of a public page, used as a good example with the business named; Google Maps is a trademark of Google LLC",
+    "url": "https://www.google.com/maps/search/Aquapulse+Plumbing+and+services+Bibwewadi+Pune",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/website-aquapulseplumbing-home.png",
+    "type": "screenshot",
+    "source": "AquaPulse Plumbing website home page, above the fold (public page), 1440x900 headless Chrome",
+    "licence": "Screenshot of a public website, used as a good example with the business named and linked",
+    "url": "https://aquapulseplumbing.in/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/youtube-ashirvad-cpvc-installation.png",
+    "type": "screenshot",
+    "source": "YouTube watch page of 'Ashirvad CPVC Installation' by Ashirvad by aliaxis (public page, logged out), 1440x900 headless Chrome",
+    "licence": "Screenshot of a public page, used as a good example with the channel named and linked; YouTube is a trademark of Google LLC; video content belongs to Ashirvad by aliaxis",
+    "url": "https://www.youtube.com/watch?v=osOfTtlO0S8",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/youtube-ashirvad-channel.png",
+    "type": "screenshot",
+    "source": "YouTube channel page of Ashirvad by aliaxis, Videos tab (public page, logged out), 1440x900 headless Chrome",
+    "licence": "Screenshot of a public page, used as a good example with the channel named and linked; YouTube is a trademark of Google LLC",
+    "url": "https://www.youtube.com/@ashirvadpipesofficial/videos",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/google-g.svg",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:Google \"G\" logo.svg (author: Google LLC)",
+    "licence": "Public domain (simple geometry and text, below the threshold of originality); the Google mark is a trademark of Google LLC, use unaltered and unstretched",
+    "url": "https://commons.wikimedia.org/wiki/File:Google_%22G%22_logo.svg",
+    "official_brand_page": "https://about.google/brand-resource-center/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/google-wordmark.svg",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:Google 2015 logo.svg (author: Google LLC)",
+    "licence": "Public domain (text logo, below the threshold of originality); trademark of Google LLC, use unaltered",
+    "url": "https://commons.wikimedia.org/wiki/File:Google_2015_logo.svg",
+    "official_brand_page": "https://about.google/brand-resource-center/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/google-maps.svg",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:Google Maps icon (2020).svg (author: Google Inc.)",
+    "licence": "Public domain (simple geometry, below the threshold of originality); trademark of Google LLC, use unaltered",
+    "url": "https://commons.wikimedia.org/wiki/File:Google_Maps_icon_(2020).svg",
+    "official_brand_page": "https://about.google/brand-resource-center/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/instagram.svg",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:Instagram logo 2016.svg (Instagram, Meta Platforms)",
+    "licence": "Public domain (simple geometry, below the threshold of originality); trademark of Meta Platforms, Inc., use unaltered",
+    "url": "https://commons.wikimedia.org/wiki/File:Instagram_logo_2016.svg",
+    "official_brand_page": "https://about.meta.com/brand/resources/instagram/instagram-brand/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/whatsapp.svg",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:WhatsApp.svg (WhatsApp, Meta Platforms)",
+    "licence": "Public domain (simple geometry, below the threshold of originality); trademark of WhatsApp LLC, use unaltered",
+    "url": "https://commons.wikimedia.org/wiki/File:WhatsApp.svg",
+    "official_brand_page": "https://about.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/youtube.svg",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:YouTube full-color icon (2017).svg (YouTube, Google LLC)",
+    "licence": "Public domain (simple geometry, below the threshold of originality); trademark of Google LLC, use unaltered",
+    "url": "https://commons.wikimedia.org/wiki/File:YouTube_full-color_icon_(2017).svg",
+    "official_brand_page": "https://www.youtube.com/howyoutubeworks/resources/brand-resources/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/linkedin.svg",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:LinkedIn icon.svg (author: LinkedIn)",
+    "licence": "Public domain (simple geometry and text, below the threshold of originality); trademark of LinkedIn Corporation, use unaltered",
+    "url": "https://commons.wikimedia.org/wiki/File:LinkedIn_icon.svg",
+    "official_brand_page": "https://brand.linkedin.com/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/linkedin-wordmark.svg",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:LinkedIn Logo.svg (author: LinkedIn)",
+    "licence": "Public domain (text logo, below the threshold of originality); trademark of LinkedIn Corporation, use unaltered",
+    "url": "https://commons.wikimedia.org/wiki/File:LinkedIn_Logo.svg",
+    "official_brand_page": "https://brand.linkedin.com/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/pinterest.png",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:Pinterest-logo.png (author: Pinterest), 512x512",
+    "licence": "Public domain (simple geometry and text, below the threshold of originality); trademark of Pinterest, Inc., use unaltered",
+    "url": "https://commons.wikimedia.org/wiki/File:Pinterest-logo.png",
+    "official_brand_page": "https://business.pinterest.com/en-in/brand-guidelines/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/logos/facebook.svg",
+    "type": "logo",
+    "source": "Wikimedia Commons, File:Facebook f logo (2019).svg (author: Facebook, Inc.)",
+    "licence": "Public domain (simple geometry and text, below the threshold of originality); trademark of Meta Platforms, Inc., use unaltered",
+    "url": "https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg",
+    "official_brand_page": "https://about.meta.com/brand/resources/facebook/logo/",
+    "captured_on": "2026-10-16",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/photos/plumber-bathroom-repair.jpg",
+    "type": "photo",
+    "source": "Unsplash, 'A plumber repairs plumbing in a bathroom' by bhagya laxmi",
+    "photographer": "bhagya laxmi",
+    "licence": "Unsplash License (free to use, no attribution required, attribution given anyway)",
+    "url": "https://unsplash.com/photos/a-plumber-repairs-plumbing-in-a-bathroom-jaP5ClBdIyU",
+    "downloaded_on": "2026-10-16",
+    "size": "1920x1280",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/photos/plumber-pipe-in-wall.jpg",
+    "type": "photo",
+    "source": "Unsplash, 'A man working on a pipe in a wall' by Timur Shakerzianov",
+    "photographer": "Timur Shakerzianov",
+    "licence": "Unsplash License (free to use, no attribution required, attribution given anyway)",
+    "url": "https://unsplash.com/photos/a-man-working-on-a-pipe-in-a-wall-c314Gh8dXAo",
+    "downloaded_on": "2026-10-16",
+    "size": "1920x1440",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/photos/pune-aerial.jpg",
+    "type": "photo",
+    "source": "Unsplash, 'Aerial view of urban area' (Pune) by Anand Dhumal",
+    "photographer": "Anand Dhumal",
+    "licence": "Unsplash License (free to use, no attribution required, attribution given anyway)",
+    "url": "https://unsplash.com/photos/aerial-view-of-urban-area-stfokPzxn-M",
+    "downloaded_on": "2026-10-16",
+    "size": "1920x1280",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/photos/hospital-corridor.jpg",
+    "type": "photo",
+    "source": "Unsplash, 'White hallway with white light' by Gonzalo Kenny",
+    "photographer": "Gonzalo Kenny",
+    "licence": "Unsplash License (free to use, no attribution required, attribution given anyway)",
+    "url": "https://unsplash.com/photos/white-hallway-with-white-light-LwXMl6IL-0k",
+    "downloaded_on": "2026-10-16",
+    "size": "1440x1920",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/photos/phone-whatsapp-bubble.jpg",
+    "type": "photo",
+    "source": "Unsplash, 'A white phone with a green message bubble on it' (WhatsApp splash screen) by appshunter.io",
+    "photographer": "appshunter.io",
+    "licence": "Unsplash License (free to use, no attribution required, attribution given anyway)",
+    "url": "https://unsplash.com/photos/a-white-phone-with-a-green-message-bubble-on-it-pf66ltW0zIU",
+    "downloaded_on": "2026-10-16",
+    "size": "1920x1280",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/photos/architect-blueprints-desk.jpg",
+    "type": "photo",
+    "source": "Unsplash, 'People reviewing architectural blueprints on desk' by Pedro Miranda",
+    "photographer": "Pedro Miranda",
+    "licence": "Unsplash License (free to use, no attribution required, attribution given anyway)",
+    "url": "https://unsplash.com/photos/people-reviewing-architectural-blueprints-on-desk-3QzMBrvCeyQ",
+    "downloaded_on": "2026-10-16",
+    "size": "1332x1920",
+    "used_in": ["sessions/01"]
+  },
+  {
+    "file": "assets/img/s01/photos/architect-drafting.jpg",
+    "type": "photo",
+    "source": "Unsplash, 'An architect working on a draft with a pencil and ruler' by Daniel McCullough",
+    "photographer": "Daniel McCullough",
+    "licence": "Unsplash License (free to use, no attribution required, attribution given anyway)",
+    "url": "https://unsplash.com/photos/an-architect-working-on-a-draft-with-a-pencil-and-ruler-HtBlQdxfG9k",
+    "downloaded_on": "2026-10-16",
+    "size": "1920x1080",
+    "used_in": ["sessions/01"]
+  }
+]

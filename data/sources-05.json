@@ -1,0 +1,110 @@
+[
+  {
+    "id": "s05-hbr-acquire-vs-retain",
+    "figure": "5 to 25 times",
+    "claim_as_shown": "Winning a new customer costs five to 25 times more than keeping an existing one, depending on the industry.",
+    "publisher": "Harvard Business Review",
+    "title": "The Value of Keeping the Right Customers (Amy Gallo)",
+    "year": "2014",
+    "url": "https://hbr.org/2014/10/the-value-of-keeping-the-right-customers",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/05/index.html"],
+    "notes": "Exact source line: 'Depending on which study you believe, and what industry you're in, acquiring a new customer is anywhere from five to 25 times more expensive than retaining an existing one.' Global figure; no Indian equivalent found. Slide must say the ratio varies by industry. Screenshot: assets/img/s05/hbr-value-of-keeping-customers.png (captured with ad domains blocked; blank ad band at top can be cropped)."
+  },
+  {
+    "id": "s05-hbr-bain-retention-profit",
+    "figure": "25% to 95%",
+    "claim_as_shown": "Keeping 5% more of your customers can lift profits by 25% to 95%.",
+    "publisher": "Harvard Business Review, citing research by Frederick Reichheld of Bain and Company",
+    "title": "The Value of Keeping the Right Customers (Amy Gallo)",
+    "year": "2014",
+    "url": "https://hbr.org/2014/10/the-value-of-keeping-the-right-customers",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/05/index.html"],
+    "notes": "Exact source line: 'research done by Frederick Reichheld of Bain and Company (the inventor of the net promoter score) shows increasing customer retention rates by 5% increases profits by 25% to 95%.' Corroborated on Bain's own site: 'Retaining customers is the real challenge' (Bain and Company, 2006, https://www.bain.com/insights/retaining-customers-is-the-real-challenge/): 'by increasing retention by as little as 5 per cent, profits can be boosted by as much as 95 per cent.' The Bain page opens in a browser but returns 403 to curl (Cloudflare), so cite HBR on the slide. Global figure."
+  },
+  {
+    "id": "s05-meta-bain-india-messaging-users",
+    "figure": "650 million+",
+    "claim_as_shown": "More than 650 million Indians are active on social media and messaging platforms such as WhatsApp.",
+    "publisher": "Meta and Bain and Company",
+    "title": "Win with Conversations: Transforming consumer engagement in India with generative AI-powered conversational commerce",
+    "year": "2024",
+    "url": "https://about.fb.com/wp-content/uploads/2024/05/Win-With-Conversations-Report_2024.pdf",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/05/index.html"],
+    "notes": "Exact source line (PDF, section 'Building personalized relationships at scale'): 'India is seeing rapid growth in digitization, with more than 650 million Indians now active on social media (e.g., Facebook, Instagram, and YouTube) and messaging platforms (e.g., WhatsApp).' Indian figure. PDF saved at .work/researcher-05/dl/win-with-conversations-2024.pdf, text at .work/researcher-05/dl/wwc.txt line 76."
+  },
+  {
+    "id": "s05-meta-bain-india-smbs-whatsapp",
+    "figure": "15 million",
+    "claim_as_shown": "15 million small businesses in India already use WhatsApp for Business.",
+    "publisher": "Meta and Bain and Company",
+    "title": "Win with Conversations: Transforming consumer engagement in India with generative AI-powered conversational commerce",
+    "year": "2024",
+    "url": "https://about.fb.com/wp-content/uploads/2024/05/Win-With-Conversations-Report_2024.pdf",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/05/index.html"],
+    "notes": "Exact source line: 'Early signs of success are already evident, with 15 million SMBs using WhatsApp for Business to create digital presence and drive traffic through click-to-chat ads.' Same report also states '65M+ small businesses in India, but only ~5M sell online' (Figure 2). Indian figure. Text at .work/researcher-05/dl/wwc.txt line 152 and 280."
+  },
+  {
+    "id": "s05-brightlocal-asked-left-review",
+    "figure": "83%",
+    "claim_as_shown": "83% of people who were asked to leave a review went on to leave one.",
+    "publisher": "BrightLocal",
+    "title": "Local Consumer Review Survey 2026: Star Ratings Keep Rising, Old Reviews Don't Cut It (Rosie Murphy, 11 Feb 2026)",
+    "year": "2026",
+    "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/05/index.html"],
+    "notes": "Exact source line: '83% of people asked to leave a review went on to leave one this year'. BrightLocal surveys consumers in the US and UK, so label the slide 'global survey, no Indian figure found'. Screenshot: assets/img/s05/brightlocal-review-survey-2026.png."
+  },
+  {
+    "id": "s05-brightlocal-read-reviews",
+    "figure": "97%",
+    "claim_as_shown": "97% of consumers read reviews for local businesses.",
+    "publisher": "BrightLocal",
+    "title": "Local Consumer Review Survey 2026: Star Ratings Keep Rising, Old Reviews Don't Cut It",
+    "year": "2026",
+    "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/05/index.html"],
+    "notes": "Exact source line: '97% of consumers read reviews for local businesses'. Same page also states '80% of consumers say they're likely to use a business that responds to all of its reviews' and 'In the last 12 months, 69% of consumers wrote a business review'. Global (US and UK) survey; say so on the slide."
+  },
+  {
+    "id": "s05-brightlocal-respond-all-reviews",
+    "figure": "80%",
+    "claim_as_shown": "80% of consumers say they are likely to use a business that replies to all of its reviews.",
+    "publisher": "BrightLocal",
+    "title": "Local Consumer Review Survey 2026: Star Ratings Keep Rising, Old Reviews Don't Cut It",
+    "year": "2026",
+    "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/05/index.html"],
+    "notes": "Exact source line: '80% of consumers say they're likely to use a business that responds to all of its reviews'. Global (US and UK) survey; say so on the slide."
+  },
+  {
+    "id": "s05-imd-monsoon-onset-withdrawal",
+    "figure": "1 June to around 15 October",
+    "claim_as_shown": "The southwest monsoon normally reaches Kerala around 1 June and has left the whole country around 15 October.",
+    "publisher": "India Meteorological Department, Ministry of Earth Sciences",
+    "title": "Monsoon Information: Onset (web page) and Frequently Asked Questions on Monsoon (PDF)",
+    "year": "2025",
+    "url": "https://mausam.imd.gov.in/responsive/monsooninformation_onset.php",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/05/index.html"],
+    "notes": "Exact source lines. Onset page: 'Southwest monsoon normally sets in over Kerala around 1st June. It advances northwards, usually in surges, and covers the entire country around 15th July.' Withdrawal, IMD FAQ PDF (https://mausam.imd.gov.in/imd_latest/monsoonfaq.pdf, Q35): 'SW monsoon is withdrawn from the southern peninsula and hence from the entire country around 15th October'. Use for the 12-month reminder calendar (pre-monsoon checks in April and May, post-monsoon tank cleaning in October and November). The page shows no publication year; IMD's site lists Monsoon Report 2025 alongside, so year recorded as 2025 (current IMD web content). Screenshot: assets/img/s05/imd-monsoon-onset.png."
+  },
+  {
+    "id": "s05-whatsapp-broadcast-limit",
+    "figure": "256 contacts",
+    "claim_as_shown": "A WhatsApp broadcast list can hold up to 256 contacts, and only people who have saved your number receive it.",
+    "publisher": "WhatsApp Help Center (Meta)",
+    "title": "How to use broadcast lists",
+    "year": "2026",
+    "url": "https://faq.whatsapp.com/861663048350950/",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/05/index.html"],
+    "notes": "Exact source lines: 'You can include up to 256 contacts in each broadcast list.' and 'Make sure all contacts in the broadcast list have saved your number in their address book.' Page also notes: 'People in some countries might see a monthly broadcast limit.' Help page is undated; year recorded as the fetch year. The URL returns 400 to curl but opens in a browser (screenshot: assets/img/s05/whatsapp-faq-broadcast-lists.png)."
+  }
+]

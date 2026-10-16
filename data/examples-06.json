@@ -1,0 +1,92 @@
+[
+  {
+    "id": "x06-google-business-profile-performance",
+    "name": "Google Business Profile, Performance screen (Google's own illustration and help page)",
+    "type": "Official platform page, where the Home layer numbers live",
+    "url": "https://business.google.com/in/business-profile/",
+    "screenshot": "assets/img/s06/gbp-performance-dashboard-sample.png",
+    "verified_live": "2026-10-16, public page, no login; India edition of the page",
+    "why_good": "Google's own picture of the Performance screen: a line of views over time, '4,275 Views' split by Search and Maps, and the search terms people used. It is exactly the screen an owner opens once a month, drawn by Google, so no login screenshot is needed. The companion help page (assets/img/s06/gbp-help-performance.png) states the definitions in Google's words.",
+    "use_on_slide": "Where each number lives, card 1 (profile views, calls, messages). Annotate the one number to read: Views. Caption: 'Google's illustration, business.google.com'. The page footer notes 'Performance statistics are specific to this advertiser and individual results may vary'; the numbers in the picture are Google's sample, not a real business, say so in the caption."
+  },
+  {
+    "id": "x06-instagram-insights-help",
+    "name": "Instagram insights (Meta Business Help Centre and Instagram Help Centre)",
+    "type": "Official help pages, where the Instagram numbers live",
+    "url": "https://www.facebook.com/business/help/441651653251838",
+    "screenshot": "assets/img/s06/meta-help-instagram-insights.png",
+    "verified_live": "2026-10-16, public page, no login (served in English with ?locale=en_GB)",
+    "why_good": "Meta's own list of what the insights overview shows (Views, Interactions, New followers, Content you shared) and the rule that the account must be public. Second page: https://help.instagram.com/1533933820244654 (assets/img/s06/instagram-help-insights.png).",
+    "use_on_slide": "Where each number lives, card 2. The Instagram insights screen itself is behind login: build a phone-sized mockup in Instagram's style, labelled illustrative, using the metric names from this page (Views, Viewers, Interactions, New followers). Crop the login and survey prompts out of the capture if it is shown."
+  },
+  {
+    "id": "x06-linkedin-page-analytics-help",
+    "name": "LinkedIn Page analytics (LinkedIn Help)",
+    "type": "Official help page, where the LinkedIn numbers live",
+    "url": "https://www.linkedin.com/help/linkedin/answer/a547077",
+    "screenshot": "assets/img/s06/linkedin-help-page-analytics.png",
+    "verified_live": "2026-10-16, public page, no login",
+    "why_good": "A clean table in LinkedIn's words: Content, Followers, Visitors, Search appearances, each with a one-line definition and purpose. Readable at slide size without editing.",
+    "use_on_slide": "Where each number lives, card 3. Annotate: the number to read is Visitors (people who looked you up) and, for the owner's personal profile, profile views (behind login, mock up in LinkedIn's style, labelled illustrative)."
+  },
+  {
+    "id": "x06-google-ads-overview-help",
+    "name": "Google Ads, About the Overview page (Google Ads Help) and Google Ads India home page",
+    "type": "Official help page and product page, where the Google ads numbers live",
+    "url": "https://support.google.com/google-ads/answer/7321090",
+    "screenshot": "assets/img/s06/google-ads-help-overview-page.png",
+    "verified_live": "2026-10-16, public page, no login",
+    "why_good": "Google's own description of the first screen you see: performance over the last 7 days against the 7 before, with cards for conversions (enquiries) and cost. The India home page (assets/img/s06/google-ads-home-in.png) shows a sample search ad and Maps listing with rupee prices, useful as the 'what the viewer sees' reminder.",
+    "use_on_slide": "Where each number lives, card 4. The Google Ads account screen is behind login: mock up a one-card Overview in Google's style, labelled illustrative, with three numbers: amount spent, enquiries (conversions), cost per enquiry. Crop the 'Help guide' chat box out of the help page capture."
+  },
+  {
+    "id": "x06-meta-ads-manager-page",
+    "name": "Meta Ads Manager (Meta for Business)",
+    "type": "Official product page, where the Meta ads numbers live",
+    "url": "https://www.facebook.com/business/tools/ads-manager",
+    "screenshot": "assets/img/s06/meta-ads-manager-page.png",
+    "verified_live": "2026-10-16, public page, no login (English with ?locale=en_GB; the India default is Hindi)",
+    "why_good": "Meta's own words on the tool: 'tracking how well your campaigns are performing towards your marketing goals' and 'See if your ads are driving their intended goal with reporting tools'. The hero shows a sample ad (SilkRoll, 'Shop Now'), which reminds the room what the viewer sees.",
+    "use_on_slide": "Where each number lives, card 5. Ads Manager itself is behind login: mock up a one-row results table in Meta's style (Amount spent, Results, Cost per result), labelled illustrative. Crop the 'Log in to Meta for Business' prompt out of the capture. Companion page: Meta Business Suite (assets/img/s06/meta-business-suite-page.png)."
+  },
+  {
+    "id": "x06-claude-home",
+    "name": "Claude (Anthropic), claude.com",
+    "type": "Named AI tool, public home page",
+    "url": "https://claude.com/",
+    "screenshot": "assets/img/s06/claude-home.png",
+    "verified_live": "2026-10-16, public page, no login (cookie banner bottom right, crop it)",
+    "why_good": "Shows what the tool looks like to a first-time visitor: a plain chat box. Neutral example for 'drafting a post, a review reply or a quote'. Official logo files from Anthropic's press kit are in assets/img/s06/logos/.",
+    "use_on_slide": "AI tools that save time. Name all five tools neutrally; do not rank them."
+  },
+  {
+    "id": "x06-gemini-home",
+    "name": "Gemini (Google), gemini.google",
+    "type": "Named AI tool, public home page",
+    "url": "https://gemini.google/",
+    "screenshot": "assets/img/s06/gemini-home.png",
+    "verified_live": "2026-10-16, public page, no login",
+    "why_good": "Clean capture of the chat screen ('Hi, I'm Gemini. Where should we start?'). Shows the room that these tools are a text box, nothing more frightening.",
+    "use_on_slide": "AI tools that save time. Logo: assets/img/s06/logos/gemini-logo.svg."
+  },
+  {
+    "id": "x06-google-kantar-genai-blog",
+    "name": "Google India Blog, Google-Kantar generative AI report post",
+    "type": "Source page for the guess-the-number fact",
+    "url": "https://blog.google/intl/en-in/products/75-of-indians-desire-a-daily-growth-collaborator-google-kantar-report/",
+    "screenshot": "assets/img/s06/google-kantar-genai-india-blog.png",
+    "verified_live": "2026-10-16, public page, no login",
+    "why_good": "The page that carries the 31% figure (source id s06-google-kantar-genai-tried-2025). Use small as the citation image only.",
+    "use_on_slide": "Under the poll answer, as a small source render."
+  },
+  {
+    "id": "x06-brightlocal-2026",
+    "name": "BrightLocal, Local Consumer Review Survey 2026",
+    "type": "Source page for the review figures",
+    "url": "https://www.brightlocal.com/learn/local-consumer-review-survey/",
+    "screenshot": "assets/img/s06/brightlocal-review-survey-2026.png",
+    "verified_live": "2026-10-16, public page, no login",
+    "why_good": "The page that carries the 80%, 50%, 45% and 74% figures (source ids s06-brightlocal-2026-*). Capture is 1440x1300 so the title and date (Feb 11, 2026) are visible; use small as the citation image only.",
+    "use_on_slide": "Reading the numbers (if-then card 3) and the AI rule slide, as a small source render."
+  }
+]

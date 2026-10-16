@@ -1,0 +1,94 @@
+{
+  "session": "02",
+  "verified_on": "2026-10-16",
+  "examples": [
+    {
+      "id": "ex02-01",
+      "slot": "Google Business Profile as the standard: a real well-kept Indian trade business profile",
+      "name": "Neela Plumbing, Mahalunge, Pune",
+      "type": "Plumber (Google category), Pune",
+      "url": "https://www.google.com/maps/search/Neela+Plumbing+Mahalunge+Pune",
+      "status": "live, 200 on 2026-10-16; public Maps listing renders without login",
+      "screenshot": "assets/img/s02/s02-maps-neela-plumbing-listing.png",
+      "why_good": "Everything the Google help page lists as 'complete' is visible on the public listing: a clear category (Plumber), a 4.9 star rating, a cover image that shows the services offered (bathroom fitting, pipe fitting and replacement, water tank installation, drainage), full address, hours (open 24 hours), a website link, a phone number, and a recent post from the owner (a festival greeting with 'Call now'). The firm's own website says 'Based on 288+ Google reviews', which the headless capture could not confirm because Google serves a limited view without the reviews panel; the presenter can show the live count on screen.",
+      "caveats": "The 'Photos' strip did not load in the headless capture (grey box in the tall screenshot). Use the 1440x900 capture for the slide; it shows the cover image, name, rating, category, actions, address, hours, website and phone. The builder can also show the review count live during the session."
+    },
+    {
+      "id": "ex02-02",
+      "slot": "Website decision tree: sell products online (Shopify)",
+      "name": "Ruhe (ruheindia.com)",
+      "type": "Indian kitchen and bathroom fittings brand selling online",
+      "url": "https://ruheindia.com/",
+      "status": "live, 200 on 2026-10-16; page source loads from cdn.shopify.com (59 references), so it is a Shopify store",
+      "screenshot": "assets/img/s02/s02-site-ruhe-shopify.png",
+      "why_good": "An Indian sanitaryware and plumbing-fittings brand that sells direct online: category menus (Kitchen, Bathroom), rupee pricing, search, Find a store, cart, and delivery, returns, warranty and installation promises right under the hero. A clean case of 'if you sell products, use a shop platform'.",
+      "caveats": "The hero banner is a sale creative; the builder may prefer to crop to the header and the four promise tiles so the slide is not read as an advertisement."
+    },
+    {
+      "id": "ex02-03",
+      "slot": "Website decision tree: a site you update yourself (WordPress)",
+      "name": "Ashirvad by Aliaxis (ashirvad.com)",
+      "type": "Indian pipe and fittings manufacturer, Bengaluru",
+      "url": "https://www.ashirvad.com/",
+      "status": "live, 200 on 2026-10-16; page source references wp-content and wp-includes (367 hits), so it runs on WordPress",
+      "screenshot": "assets/img/s02/s02-site-ashirvad-wordpress.png",
+      "why_good": "A large Indian plumbing manufacturer running a content-led site (About, For Individuals, For Businesses, Services and Offerings, Innovation Center, People, Find Dealers, a language switch) on WordPress, which shows that WordPress scales from a one-page contractor site to a corporate site that a marketing team updates itself.",
+      "caveats": "The hero is a dark video frame; it is fine on a light slide inside a browser-frame mockup. Alternate WordPress example: Astral Pipes, https://www.astralpipes.com/ (200, 224 WordPress references), screenshot assets/img/s02/s02-site-astral-wordpress.png, but its capture carries an enquiry pop-up over the hero, so prefer Ashirvad."
+    },
+    {
+      "id": "ex02-04",
+      "slot": "Website decision tree: portals, member logins, complex catalogues (custom build)",
+      "name": "Indian Plumbing Association (indianplumbing.org)",
+      "type": "IPA's own site, a React build per the brief",
+      "url": "https://indianplumbing.org/",
+      "status": "live, 200 on 2026-10-16",
+      "screenshot": "assets/img/s02/s02-site-indianplumbing-org-custom.png",
+      "why_good": "Named in the brief as the custom-build example. The capture shows the home page with the 32nd Indian Plumbing Conference banner (17 to 19 December 2026, Chennai Trade Centre), Join IPA, chapters, publications and contact details in the header.",
+      "caveats": "The banner carries dates; that is IPA's page, not our copy, so it is acceptable inside a screenshot. Do not restate the dates in slide text."
+    },
+    {
+      "id": "ex02-05",
+      "slot": "Five seconds on the home page: a real example that passes",
+      "name": "AquaPulse Plumbing and Services, Pune (aquapulseplumbing.in)",
+      "type": "Pune plumbing contractor",
+      "url": "https://aquapulseplumbing.in/",
+      "status": "live, 200 on 2026-10-16 (http URL 301s to https)",
+      "screenshot": "assets/img/s02/s02-site-aquapulse-five-second.png",
+      "why_good": "In the first screen a stranger gets all four answers: what you do (Fast, Reliable Plumbing; emergency repairs to complete installations), where (badge 'Available 24/7 in Pune'), proof (Licensed and Insured, 24/7 Emergency, 15+ Years Experience, Testimonials in the menu), how to contact (Call Now, Book a Service, floating WhatsApp and phone buttons). Found through its Google listing in the Pune search capture.",
+      "caveats": "Primary choice for the five-second slide. Second choice with an even more literal structure: Neela Plumbing's site, https://neela-plumbing.grexa.site/ (200), screenshot assets/img/s02/s02-site-neela-plumbing-five-second.png, whose 'At a glance' card lists what we do, location, hours, phone, WhatsApp contact and '4.9 / 5 based on 288+ Google reviews'. Use Neela's if the builder wants to annotate the four answers as labelled boxes."
+    },
+    {
+      "id": "ex02-06",
+      "slot": "WhatsApp Business: business profile, catalogue, quick replies, away message",
+      "name": "WhatsApp Business app, official product page",
+      "type": "Official Meta page",
+      "url": "https://business.whatsapp.com/products/business-app",
+      "status": "renders in Chrome on 2026-10-16 (screenshot captured); the server answers 400 to curl without browser headers, and https://business.whatsapp.com/ answers 301 to a localised page, so the link checker should use a browser or accept the 301 on the root URL",
+      "screenshot": "assets/img/s02/s02-whatsapp-business-app-page.png",
+      "why_good": "Official page, official imagery, with the line 'The WhatsApp Business app is built with the small business owner in mind' and the Google Play and App Store buttons. The home page capture (assets/img/s02/s02-whatsapp-business-home.png) carries Meta's own line 'the platform with more than 2 billion users around the world'.",
+      "caveats": "Feature screens (profile, catalogue, quick replies, away message) are inside the app and cannot be captured; the builder mocks them up in WhatsApp's visual style with the 'illustrative' label, using the WhatsApp logo from assets/img/s02/s02-logo-whatsapp.svg."
+    },
+    {
+      "id": "ex02-07",
+      "slot": "Google Business Profile, official page (for the 'what it is' moment)",
+      "name": "Google Business Profile, official India page",
+      "type": "Official Google page",
+      "url": "https://business.google.com/in/business-profile/",
+      "status": "live, 200 on 2026-10-16",
+      "screenshot": "assets/img/s02/s02-google-business-profile-page.png",
+      "why_good": "Google's own wording: 'Stand out on Google with a free Business Profile. Take control of how your free Business Profile appears on Google Search and Maps. Personalise your profile with photos, manage customer reviews, and share what makes your business unique to attract new customers.' Useful under the map recap or as the first slide of the topic.",
+      "caveats": "None."
+    },
+    {
+      "id": "ex02-08",
+      "slot": "What a local search looks like (context image for the guess-the-number or the Sharma 'which one would you call' slide)",
+      "name": "Google Maps search results for 'plumbing contractors pune'",
+      "type": "Public Google Maps search, no login",
+      "url": "https://www.google.com/maps/search/plumbing+contractors+pune",
+      "status": "live, renders without login on 2026-10-16",
+      "screenshot": "assets/img/s02/s02-maps-search-plumbing-contractors-pune.png",
+      "why_good": "Shows real, well-rated Pune plumbers (Pune Plumbing Services 4.9, Aquapulse 4.6, Neela Plumbing 4.9, Swain Plumbing Works 4.8) with hours, phone and Website or Directions buttons: exactly what an architect sees in the journey from Session 1. Every business shown has a 4.6 or better rating, so nothing is criticised.",
+      "caveats": "Google Search (not Maps) results could not be captured headless: google.com/search returned a reCAPTCHA page. If a Search results page is needed, the presenter screenshots it live or the builder mocks it up with the 'illustrative' label."
+    }
+  ]
+}

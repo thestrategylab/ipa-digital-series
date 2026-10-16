@@ -1,0 +1,123 @@
+[
+  {
+    "id": "s04-digital-share-2025",
+    "figure": "59%",
+    "claim_as_shown": "Digital took 59% of all advertising money spent in India in 2025, Rs 71,621 crore.",
+    "publisher": "dentsu India and exchange4media",
+    "title": "dentsu-e4m Digital Advertising Report 2026, section 1.2 Media-wise advertising spends (report page 14)",
+    "year": "2026",
+    "url": "https://www.dentsu.com/in/en/reports/dentsu_e4m_digital_advertising_2026",
+    "fetched_on": "2026-10-16",
+    "notes": "Primary source. PDF downloaded from the report page's download link (https://assets-au-01.kc-usercontent.com/8522778e-477a-02d8-b8f9-9802f0f7a187/4da5f0ad-a7b9-4271-ae3d-e6e06bf27eb0/dentsu-e4m-DigitalReport-2026%20%281%29.pdf) and read. Exact line: 'Digital media now contributes Rs 71,621 crore, commanding a dominant 59% share of the Indian advertising Industry.' Total industry 2025: Rs 1,21,339 crore (report page 12). Use this as the guess-the-number answer. Page render at assets/img/s04/dentsu-2026-media-wise-spends.png."
+  },
+  {
+    "id": "s04-tv-print-share-2025",
+    "figure": "TV 21%, print 14%",
+    "claim_as_shown": "Television took 21% (Rs 25,964 crore) and print 14% (Rs 16,594 crore) of India's advertising spend in 2025.",
+    "publisher": "dentsu India and exchange4media",
+    "title": "dentsu-e4m Digital Advertising Report 2026, section 1.2 Media-wise advertising spends (report page 14)",
+    "year": "2026",
+    "url": "https://www.dentsu.com/in/en/reports/dentsu_e4m_digital_advertising_2026",
+    "fetched_on": "2026-10-16",
+    "notes": "Same page as s04-digital-share-2025. Exact line: 'Television remains the largest traditional medium with a 21% share (Rs 25,964 crore)... Print follows with 14% (Rs 16,594 crore)'. Also on that page: radio Rs 1,501 crore 1%, cinema Rs 935 crore 1%, outdoor Rs 4,724 crore 4%. Use for the three-bar comparison under the poll answer."
+  },
+  {
+    "id": "s04-digital-share-trend",
+    "figure": "12% in 2016 to 59% in 2025, 70% projected by 2027",
+    "claim_as_shown": "Digital's share of India's advertising spend has risen from 12% in 2016 to 59% at the end of 2025, and the report projects 70% by the end of 2027.",
+    "publisher": "dentsu India and exchange4media",
+    "title": "dentsu-e4m Digital Advertising Report 2026, section 1.3 The changing media mix (report page 16)",
+    "year": "2026",
+    "url": "https://www.dentsu.com/in/en/reports/dentsu_e4m_digital_advertising_2026",
+    "fetched_on": "2026-10-16",
+    "notes": "Exact line: 'The share of advertising spends on digital media has risen sharply from 12% in 2016 to 59% by end-2025... with digital projected to command 70% of total advertising spends by end-2027'. Same page: 'television's share is expected to decline from 21% today to 15% by 2027, while print is projected to drop from 14% to 10% over the same period'. Label the 70% as a projection if shown."
+  },
+  {
+    "id": "s04-digital-social-search-split",
+    "figure": "Social 29%, paid search 23% of digital spend",
+    "claim_as_shown": "Within India's digital advertising spend, social media takes the largest share at 29% (Rs 21,057 crore) and paid search 23% (Rs 16,581 crore).",
+    "publisher": "dentsu India and exchange4media",
+    "title": "dentsu-e4m Digital Advertising Report 2026, section 2.2 Digital media spends by format",
+    "year": "2026",
+    "url": "https://www.dentsu.com/in/en/reports/dentsu_e4m_digital_advertising_2026",
+    "fetched_on": "2026-10-16",
+    "notes": "Exact lines from the PDF: 'Social media commands the largest share of digital ad spends at 29% (Rs 21,057 crore)' and 'Paid search contributes 23% (Rs 16,581 crore), reflecting its continued importance in intent-led...'. Supports the 'three platforms, three jobs' slide: social (Meta, LinkedIn) and search (Google) are the two biggest buckets Indian advertisers pay for. Online video is the third (report says it reaches 29% by end-2026, a projection)."
+  },
+  {
+    "id": "s04-pmar-digital-share-2025",
+    "figure": "60% (2025), 64% forecast (2026)",
+    "claim_as_shown": "The Pitch Madison Advertising Report 2026 puts digital at 60% of India's advertising market in 2025 and forecasts 64% in 2026.",
+    "publisher": "Pitch (exchange4media group) with Madison World",
+    "title": "India's ad economy crosses digital milestone, 64% share projected for 2026: PMAR (exchange4media, 24 Feb 2026, reporting the Pitch Madison Advertising Report 2026)",
+    "year": "2026",
+    "url": "https://www.exchange4media.com/digital-news/indias-ad-economy-crosses-digital-milestone-64-share-projected-for-2026-pmar-152319.html",
+    "fetched_on": "2026-10-16",
+    "notes": "Corroborating figure, near-primary: Pitch is exchange4media's own title, so this is the publisher's own write-up. Exact lines: 'Digital's share of the expanded advertising economy is expected to rise from 60 percent in 2025 to 64 percent in 2026' and 'Digital ADEX is forecast to grow from Rs 93,156 crores to Rs 1,11,976 crores in 2026'. Caveat: PMAR's 'expanded' definition adds quick-commerce and MSME digital spend; on its legacy definition digital is 46% and traditional 54% (Social Samosa, 18 Feb 2026, same report). The report PDF sits behind a form at e4mevents.com and could not be opened. Recommendation: lead with dentsu-e4m 59% on the slide and say in notes that PMAR 2026 lands at about 60% on its wider definition. Do not show both numbers on one slide. Headless capture of the article was blocked by an interstitial ad, so no screenshot."
+  },
+  {
+    "id": "s04-pmar-search-social-video-2025",
+    "figure": "Search Rs 9,132 crore, social Rs 12,143 crore, video Rs 14,785 crore (2025)",
+    "claim_as_shown": "In 2025 Indian advertisers spent Rs 9,132 crore on search ads, Rs 12,143 crore on social ads and Rs 14,785 crore on video ads (Pitch Madison Advertising Report 2026).",
+    "publisher": "Pitch (exchange4media group) with Madison World",
+    "title": "India's ad economy crosses digital milestone, 64% share projected for 2026: PMAR",
+    "year": "2026",
+    "url": "https://www.exchange4media.com/digital-news/indias-ad-economy-crosses-digital-milestone-64-share-projected-for-2026-pmar-152319.html",
+    "fetched_on": "2026-10-16",
+    "notes": "Exact lines: 'Search reached Rs 9,132 crores with 15 percent growth', 'Social grew 16 percent to Rs 12,143 crores', 'In 2025, Video spending reached Rs 14,785 crores, growing 21 percent and accounting for 28 percent of total Digital ADEX'. Optional; use only if the builder wants rupee figures rather than the dentsu percentage split. Do not mix PMAR and dentsu figures on the same slide."
+  },
+  {
+    "id": "s04-trai-broadband-aug-2026",
+    "figure": "1,101.21 million",
+    "claim_as_shown": "India had 1,101 million broadband connections at the end of August 2026 (TRAI).",
+    "publisher": "Telecom Regulatory Authority of India (TRAI)",
+    "title": "Press Release No. 125/2026, Telecom Subscription Data as on 31st August 2026, section I Broadband Subscribers",
+    "year": "2026",
+    "url": "https://www.trai.gov.in/sites/default/files/2026-09/PR_No125of2026_0.pdf",
+    "fetched_on": "2026-10-16",
+    "notes": "Primary. PDF downloaded and read. Exact line: 'the total number of broadband subscribers increased from 1094.48 million at the end of July 2026 to 1101.21 million at the end of August 2026'. Of this, mobile wireless access is 1033.24 million. Counts connections, not people, so say 'connections'. Supporting figure for 'the audience ads can reach'; optional."
+  },
+  {
+    "id": "s04-linkedin-members-global",
+    "figure": "1.3 billion+ members (global), 410 million+ in Asia Pacific",
+    "claim_as_shown": "LinkedIn says it has more than 1.3 billion members worldwide, over 410 million of them in Asia Pacific (global figure; LinkedIn does not publish an India count on this page).",
+    "publisher": "LinkedIn Corporation",
+    "title": "About LinkedIn (LinkedIn Pressroom)",
+    "year": "2026",
+    "url": "https://news.linkedin.com/about-us",
+    "fetched_on": "2026-10-16",
+    "notes": "Official page, opened. Exact text: 'A community of +1.3B Members' and '410M+' for Asia Pacific ('Covers countries across Asia and the Pacific - from India, China, and Japan'). Page is undated beyond a 2026 footer and an FY26 Q2 member map. Global figure, labelled as such because no Indian figure exists on a LinkedIn-published page. The LinkedIn ads page (business.linkedin.com/marketing-solutions/ads) separately says 'Over 1 billion active professionals are on LinkedIn' and 'Target your audience by job title, function, industry, and more.'"
+  },
+  {
+    "id": "s04-google-location-targeting",
+    "figure": "Cities, regions, postal codes; radius of at least 1 km",
+    "claim_as_shown": "Google Ads lets you show an ad only to people in a chosen city or area, or within a radius of at least 1 km around a point.",
+    "publisher": "Google",
+    "title": "Target ads to geographic locations, Google Ads Help",
+    "year": "2026",
+    "url": "https://support.google.com/google-ads/answer/1722043",
+    "fetched_on": "2026-10-16",
+    "notes": "Official help page, opened. Exact lines: 'Depending on the country, you can target regions, cities, or postal codes.' and 'Radius targeting requires setting a radius of at least 1 km around any given location.' Supports the 'one city' rule in the small-test slide and the 'aimed at all of India' mistake."
+  },
+  {
+    "id": "s04-google-call-reporting",
+    "figure": "Google forwarding numbers",
+    "claim_as_shown": "Google Ads can route calls from an ad through a Google forwarding number so the business can see which calls came from the ad.",
+    "publisher": "Google",
+    "title": "About call assets, Google Ads Help",
+    "year": "2026",
+    "url": "https://support.google.com/google-ads/answer/2453991",
+    "fetched_on": "2026-10-16",
+    "notes": "Official help page, opened. Exact line: 'Call reporting, which runs on Google forwarding numbers, lets you measure the performance of your call assets'. Page does not state India availability, so phrase as 'can' not 'will'. Supports the mistake 'no way to know where the call came from'. Plain-English alternative that needs no source: give the ad its own phone number or ask every caller how they found you."
+  },
+  {
+    "id": "s04-ipc-2026-facts",
+    "figure": "17 to 19 December 2026, Chennai Trade Centre; delegate fee Rs 1,500 (IPA member), Rs 1,800 (non-member), Rs 500 (student); exhibition entry free",
+    "claim_as_shown": "The 32nd Indian Plumbing Conference and Exhibition runs three days at Chennai Trade Centre, Chennai; delegates pay from Rs 1,500 (IPA members) and entry to the exhibition is free for visitors.",
+    "publisher": "Indian Plumbing Association",
+    "title": "32nd Indian Plumbing Conference and Exhibition (IPC 2026), event page, delegate registration and visitor registration pages",
+    "year": "2026",
+    "url": "https://www.indianplumbingconference.com/2026",
+    "fetched_on": "2026-10-16",
+    "notes": "All three pages opened. Event page: '17th, 18th & 19th December 2026', Chennai Trade Centre, theme 'Water, Plumbing & Sanitation Operations & Maintenance (Challenges & Solutions)', '3,000+ delegates, 150+ exhibitors, 10,000+ visitors' (these three are the organiser's expectations, label as 'expected' if used), early bird 'Valid till 31st October 2026' Rs 1,500 / 1,800 / 500, regular Rs 1,800 / 2,300 / 500, 'Entry to the exhibition is free for visitors.' Delegate page (https://www.indianplumbingconference.com/delegate-registration): Rs 1,500 / 1,800 / 500 'Inclusive of all taxes', includes 'Delegate Kit' and 'Hi-Tea & Lunch on 17th & 18th December 2026'. Visitor page (https://www.indianplumbingconference.com/visitor-registration): 'Entry to the exhibition is free.', venue 'Halls 3 & 4 (Ground Floor, New Building), Chennai Trade Centre, Chennai'. Inconsistency on the site: the hero banner says 'Hall Nos. 3, 4 & 5' while the visitor page says 'Halls 3 & 4'; show 'Chennai Trade Centre, Chennai' without hall numbers. Do not show the early-bird deadline (it expires before the series is shared). Contact: hq@indianplumbing.org, +91-11-4986 3152."
+  }
+]

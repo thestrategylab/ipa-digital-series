@@ -1,0 +1,134 @@
+{
+  "session": "02",
+  "recorded_on": "2026-10-16",
+  "capture_method": "Headless Chrome, --headless=new --window-size=1440,900 --virtual-time-budget=8000 --hide-scrollbars, on 2026-10-16. WhatsApp pages were captured at 1440x1000 and cropped to 1440x900 to remove Meta's cookie notice.",
+  "credits": [
+    {
+      "file": "assets/img/s02/s02-google-business-profile-page.png",
+      "source": "Screenshot of a public Google page",
+      "licence": "Screenshot of a public page, used to illustrate the product",
+      "url": "https://business.google.com/in/business-profile/",
+      "credit": "Google"
+    },
+    {
+      "file": "assets/img/s02/s02-maps-search-plumbing-contractors-pune.png",
+      "source": "Screenshot of a public Google Maps search, no login",
+      "licence": "Screenshot of a public page",
+      "url": "https://www.google.com/maps/search/plumbing+contractors+pune",
+      "credit": "Google Maps"
+    },
+    {
+      "file": "assets/img/s02/s02-maps-neela-plumbing-listing.png",
+      "source": "Screenshot of a public Google Maps listing, no login",
+      "licence": "Screenshot of a public page; business shown as a good example",
+      "url": "https://www.google.com/maps/search/Neela+Plumbing+Mahalunge+Pune",
+      "credit": "Google Maps; listing owned by Neela Plumbing, Pune"
+    },
+    {
+      "file": "assets/img/s02/s02-maps-neela-plumbing-listing-tall.png",
+      "source": "Screenshot of a public Google Maps listing, no login, 1440x2200",
+      "licence": "Screenshot of a public page; business shown as a good example",
+      "url": "https://www.google.com/maps/search/Neela+Plumbing+Mahalunge+Pune",
+      "credit": "Google Maps; listing owned by Neela Plumbing, Pune. Note: the Photos strip did not load in headless capture; crop above it."
+    },
+    {
+      "file": "assets/img/s02/s02-whatsapp-business-home.png",
+      "source": "Screenshot of the official WhatsApp Business site",
+      "licence": "Screenshot of a public page, official product imagery",
+      "url": "https://business.whatsapp.com/",
+      "credit": "Meta Platforms, Inc."
+    },
+    {
+      "file": "assets/img/s02/s02-whatsapp-business-app-page.png",
+      "source": "Screenshot of the official WhatsApp Business app page",
+      "licence": "Screenshot of a public page, official product imagery",
+      "url": "https://business.whatsapp.com/products/business-app",
+      "credit": "Meta Platforms, Inc."
+    },
+    {
+      "file": "assets/img/s02/s02-site-indianplumbing-org-custom.png",
+      "source": "Screenshot of a public website",
+      "licence": "Screenshot of a public page, shown as a good example",
+      "url": "https://indianplumbing.org/",
+      "credit": "Indian Plumbing Association"
+    },
+    {
+      "file": "assets/img/s02/s02-site-ruhe-shopify.png",
+      "source": "Screenshot of a public website",
+      "licence": "Screenshot of a public page, shown as a good example",
+      "url": "https://ruheindia.com/",
+      "credit": "Ruhe"
+    },
+    {
+      "file": "assets/img/s02/s02-site-ashirvad-wordpress.png",
+      "source": "Screenshot of a public website",
+      "licence": "Screenshot of a public page, shown as a good example",
+      "url": "https://www.ashirvad.com/",
+      "credit": "Ashirvad by Aliaxis"
+    },
+    {
+      "file": "assets/img/s02/s02-site-astral-wordpress.png",
+      "source": "Screenshot of a public website",
+      "licence": "Screenshot of a public page, shown as a good example",
+      "url": "https://www.astralpipes.com/",
+      "credit": "Astral Pipes"
+    },
+    {
+      "file": "assets/img/s02/s02-site-aquapulse-five-second.png",
+      "source": "Screenshot of a public website",
+      "licence": "Screenshot of a public page, shown as a good example",
+      "url": "https://aquapulseplumbing.in/",
+      "credit": "AquaPulse Plumbing and Services, Pune"
+    },
+    {
+      "file": "assets/img/s02/s02-site-neela-plumbing-five-second.png",
+      "source": "Screenshot of a public website",
+      "licence": "Screenshot of a public page, shown as a good example",
+      "url": "https://neela-plumbing.grexa.site/",
+      "credit": "Neela Plumbing, Pune"
+    },
+    {
+      "file": "assets/img/s02/s02-logo-shopify.png",
+      "source": "Official Shopify brand assets, 'Primary logo' download (shopify_logo_black.png from shopify-primary-logo.zip)",
+      "licence": "Shopify trademark; use permitted under the guidelines on the brand assets page (no stretching, recolouring or alteration)",
+      "url": "https://www.shopify.com/brand-assets",
+      "credit": "Shopify Inc."
+    },
+    {
+      "file": "assets/img/s02/s02-logo-wordpress.png",
+      "source": "Official WordPress logotype, standard version (WordPress-logotype-standard.png)",
+      "licence": "WordPress trademark, WordPress Foundation; downloadable from the official logos page under its trademark policy (do not alter)",
+      "url": "https://wordpress.org/about/logos/",
+      "credit": "WordPress Foundation"
+    },
+    {
+      "file": "assets/img/s02/s02-logo-whatsapp.svg",
+      "source": "Wikimedia Commons, File:WhatsApp.svg",
+      "licence": "Public domain per Commons (simple logo below the threshold of originality); the WhatsApp mark remains a Meta trademark, so use it unaltered and at small size",
+      "url": "https://commons.wikimedia.org/wiki/File:WhatsApp.svg",
+      "credit": "WhatsApp LLC (Meta), via Wikimedia Commons"
+    },
+    {
+      "file": "assets/img/s02/s02-logo-google-maps.svg",
+      "source": "Wikimedia Commons, File:Google Maps icon (2020).svg",
+      "licence": "Public domain per Commons (simple logo below the threshold of originality); the pin remains a Google trademark, so use it unaltered and at small size",
+      "url": "https://commons.wikimedia.org/wiki/File:Google_Maps_icon_(2020).svg",
+      "credit": "Google LLC, via Wikimedia Commons"
+    },
+    {
+      "file": "assets/img/s02/s02-photo-tap-hand-pexels-7162333.jpg",
+      "source": "Pexels, 'A Person Turning a Faucet Handle', downloaded at 1920px wide",
+      "licence": "Pexels License (free to use, no attribution required, credited anyway)",
+      "url": "https://www.pexels.com/photo/a-person-turning-a-faucet-handle-7162333/",
+      "credit": "Photo by MART PRODUCTION on Pexels (https://www.pexels.com/@mart-production/)"
+    },
+    {
+      "file": "assets/img/s02/s02-photo-pipes-rajkot-pexels-7013085.jpg",
+      "source": "Pexels, 'Man holding Pipes', location shown on the page as Rajkot, Gujarat, India, downloaded at 1920px wide",
+      "licence": "Pexels License (free to use, no attribution required, credited anyway)",
+      "url": "https://www.pexels.com/photo/man-holding-pipes-7013085/",
+      "credit": "Photo by Prakash Chavda on Pexels (https://www.pexels.com/@praksh/)"
+    }
+  ],
+  "link_check_notes": "Pexels photo pages answer 403 to curl but open in a browser and were read with WebFetch on 2026-10-16; the image CDN (images.pexels.com) answers 200. Unsplash was tried (two suitable photos found, 'A plumber repairs plumbing in a bathroom' by bhagya laxmi and 'person opening faucet' by Jacek Dylag) but Unsplash's bot check blocked every download route, so no Unsplash file is used. Two Wikimedia Commons photos were downloaded and rejected on quality (a 2006 US kitchen and a Finnish lake map on a phone); they are not in assets."
+}

@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IPA Digital Knowledge Series</title>
+  <meta name="description" content="Six 30-minute sessions on what digital actually does for a plumbing business. By The Strategy Lab for the Indian Plumbing Association.">
+  <link rel="icon" href="assets/brand/tsl-mark.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <style>
+    /* Home page layout only. Shared components come from base.css. */
+    .wrap { width: min(1180px, 100% - 32px); margin-inline: auto; }
+    .site-head { position: sticky; top: 0; z-index: 10; background: rgba(247, 245, 243, 0.92); backdrop-filter: saturate(1.2) blur(10px); -webkit-backdrop-filter: saturate(1.2) blur(10px); border-bottom: 1px solid var(--line); }
+    .site-head .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 68px; }
+    .site-head nav { display: flex; gap: 4px; }
+    .site-head nav a { padding: 8px 12px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 15px; color: var(--brown); }
+    .site-head nav a:hover { background: var(--white); }
+    .site-head .lockup__tsl { height: 36px; }
+    .site-head .lockup__ipa { height: 30px; }
+
+    .hero { padding: clamp(56px, 9vw, 128px) 0 clamp(40px, 6vw, 80px); }
+    .hero h1 { max-width: 15ch; }
+    .hero .lede { margin-top: 28px; max-width: 42em; font-size: clamp(1.1rem, 1.5vw, 1.35rem); color: var(--ink); }
+    .hero__facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px 40px; margin-top: clamp(40px, 5vw, 72px); padding-top: 28px; border-top: 1px solid var(--line-strong); }
+    .hero__facts p { font-size: 1rem; line-height: 1.5; color: var(--brown); max-width: 24em; }
+    .hero__facts b { display: block; font-size: 1.15rem; font-weight: 700; color: var(--brown); margin-bottom: 4px; }
+
+    .section { padding: clamp(48px, 7vw, 96px) 0; border-top: 1px solid var(--line); }
+    .section__head { max-width: 46em; margin-bottom: clamp(28px, 4vw, 48px); }
+    .section__head p { margin-top: 14px; color: var(--ink); max-width: 38em; }
+    .section--map .map { margin-top: 8px; }
+
+    .sessions { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .session { display: grid; grid-template-columns: auto 1fr; gap: 0 22px; padding: 26px 28px 24px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); box-shadow: var(--shadow-1); transition: transform var(--t-base) var(--ease-out), box-shadow var(--t-base) var(--ease-out); }
+    .session:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); }
+    .session__n { font-size: 3rem; font-weight: 300; line-height: 1; color: var(--brown); letter-spacing: -0.04em; font-variant-numeric: tabular-nums; grid-row: 1 / span 3; padding-top: 4px; }
+    .session__title { font-size: 1.35rem; line-height: 1.15; }
+    .session__line { margin-top: 10px; font-size: 1rem; color: var(--ink); line-height: 1.5; }
+    .session__foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 18px; }
+    .session__foot .chip { font-size: 0.75rem; margin-right: auto; }
+    .session__foot .btn { font-size: 0.85rem; }
+
+    .how { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+    .how h3 { font-size: 1.15rem; margin-bottom: 12px; padding-top: 14px; border-top: 2px solid var(--brown); }
+    .how p, .how li { font-size: 1rem; line-height: 1.55; }
+    .how ul { list-style: none; display: grid; gap: 8px; }
+    .how li { display: grid; grid-template-columns: 5.4em 1fr; gap: 12px; align-items: baseline; }
+    .how kbd { font-size: 0.78rem; }
+    .how p + p { margin-top: 10px; }
+    .fiction { margin-top: 48px; padding: 20px 24px; border: 1px solid var(--line-strong); border-radius: var(--r-md); background: var(--white); display: grid; grid-template-columns: auto 1fr; gap: 20px; align-items: center; }
+    .fiction img { width: 150px; }
+    .fiction p { font-size: 0.95rem; }
+
+    .site-foot { border-top: 1px solid var(--line-strong); padding: 40px 0 56px; }
+    .site-foot .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 40px; }
+    .site-foot p { font-size: 0.9rem; color: var(--grey); max-width: 36em; }
+    .site-foot a { color: var(--brown); }
+    .site-foot .lockup__tsl { height: 44px; }
+    .site-foot .lockup__ipa { height: 36px; }
+
+    @media (max-width: 860px) {
+      .sessions { grid-template-columns: 1fr; }
+      .how { grid-template-columns: 1fr; gap: 28px; }
+      .hero__facts { grid-template-columns: 1fr; gap: 18px; }
+    }
+    @media (max-width: 560px) {
+      .site-head .wrap { flex-wrap: wrap; padding: 10px 0 6px; min-height: 0; }
+      .site-head nav { margin-left: -8px; }
+      .site-head nav a { padding: 6px 8px; font-size: 14px; }
+      .site-head .lockup { gap: 10px; }
+      .site-head .lockup__ipa { height: 26px; }
+      .session { grid-template-columns: 1fr; padding: 22px 20px; }
+      .session__n { grid-row: auto; font-size: 2rem; margin-bottom: 6px; }
+      .session__foot .chip { margin-right: 0; width: 100%; justify-content: center; }
+      .session__foot .btn { flex: 1; justify-content: center; }
+      .fiction { grid-template-columns: 1fr; }
+      .how li { grid-template-columns: 1fr; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <div class="lockup">
+      <img class="lockup__tsl" src="assets/brand/tsl-mark.png" alt="The Strategy Lab">
+      <span class="lockup__sep"></span>
+      <img class="lockup__ipa" src="assets/brand/ipa-logo.png" alt="Indian Plumbing Association">
+    </div>
+    <nav aria-label="Sections">
+      <a href="#map">The map</a>
+      <a href="#sessions">Sessions</a>
+      <a href="#how">How to use</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1 class="display">Six sessions on what digital <span class="sig">actually</span> does for a plumbing business.</h1>
+      <p class="lede">A monthly knowledge series by The Strategy Lab for the Indian Plumbing Association. Written for board members, chapter heads and business owners who direct the work rather than post it: why it matters now, how the pieces fit together, who should do what, and how to tell whether it is paying off.</p>
+      <div class="hero__facts">
+        <p><b>Thirty minutes each</b>One real market fact, one map, one topic, one fictional firm before and after, one thing to check this week.</p>
+        <p><b>No jargon</b>Plain English throughout. Every number on a slide carries its source underneath it.</p>
+        <p><b>Stands on its own</b>Presented live over Zoom, then shared with members. Each deck opens in a browser with the presenter notes beside it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--map" id="map">
+    <div class="wrap">
+      <div class="section__head">
+        <h2 class="h2">One map, five layers.</h2>
+        <p>Digital is not one thing. It is five layers that hand a customer from one to the next. Every session uses this same map and goes deep on one layer. Select a layer to see the platforms it covers.</p>
+      </div>
+      <div data-map></div>
+    </div>
+  </section>
+
+  <section class="section" id="sessions">
+    <div class="wrap">
+      <div class="section__head">
+        <h2 class="h2">The six sessions.</h2>
+        <p>Open the deck to present or read it. The presenter notes are built from the same file and read well on a phone.</p>
+      </div>
+      <div class="sessions">
+        <article class="session">
+          <span class="session__n">1</span>
+          <h3 class="session__title">What digital actually means</h3>
+          <p class="session__line">Digital is not being on Instagram. It is five layers that hand a customer from one to the next, and most businesses have only one or two switched on.</p>
+          <div class="session__foot">
+            <span class="chip">All five layers</span>
+            <a class="btn btn--sm" href="sessions/01/index.html">Open deck</a>
+            <a class="btn btn--ghost btn--sm" href="sessions/01/notes.html">Presenter notes</a>
+          </div>
+        </article>
+        <article class="session">
+          <span class="session__n">2</span>
+          <h3 class="session__title">Your home online</h3>
+          <p class="session__line">Before you spend a rupee on ads, fix where people land. For most plumbing businesses that is the Google profile, not the website.</p>
+          <div class="session__foot">
+            <span class="chip"><span class="chip__n">Layer 1</span>Home</span>
+            <a class="btn btn--sm" href="sessions/02/index.html">Open deck</a>
+            <a class="btn btn--ghost btn--sm" href="sessions/02/notes.html">Presenter notes</a>
+          </div>
+        </article>
+        <article class="session">
+          <span class="session__n">3</span>
+          <h3 class="session__title">Being found and trusted</h3>
+          <p class="session__line">Each platform has one job. Pick the one or two where your buyers already are, and show the work.</p>
+          <div class="session__foot">
+            <span class="chip"><span class="chip__n">Layer 2</span>Discovery</span>
+            <a class="btn btn--sm" href="sessions/03/index.html">Open deck</a>
+            <a class="btn btn--ghost btn--sm" href="sessions/03/notes.html">Presenter notes</a>
+          </div>
+        </article>
+        <article class="session">
+          <span class="session__n">4</span>
+          <h3 class="session__title">Paying for reach</h3>
+          <p class="session__line">Ads multiply what already exists. They do not fix a weak home. How a small, measured test works.</p>
+          <div class="session__foot">
+            <span class="chip"><span class="chip__n">Layer 3</span>Paid reach</span>
+            <a class="btn btn--sm" href="sessions/04/index.html">Open deck</a>
+            <a class="btn btn--ghost btn--sm" href="sessions/04/notes.html">Presenter notes</a>
+          </div>
+        </article>
+        <article class="session">
+          <span class="session__n">5</span>
+          <h3 class="session__title">Keeping customers</h3>
+          <p class="session__line">The cheapest new job is from a customer you already served. Plumbing has built-in repeat work, and most firms never ask for it.</p>
+          <div class="session__foot">
+            <span class="chip"><span class="chip__n">Layer 4</span>Relationship</span>
+            <a class="btn btn--sm" href="sessions/05/index.html">Open deck</a>
+            <a class="btn btn--ghost btn--sm" href="sessions/05/notes.html">Presenter notes</a>
+          </div>
+        </article>
+        <article class="session">
+          <span class="session__n">6</span>
+          <h3 class="session__title">Measuring it, plus the new tools</h3>
+          <p class="session__line">You do not need a dashboard. You need five numbers once a month, and a rule for the new AI tools that save time.</p>
+          <div class="session__foot">
+            <span class="chip"><span class="chip__n">Layer 5</span>Measurement</span>
+            <a class="btn btn--sm" href="sessions/06/index.html">Open deck</a>
+            <a class="btn btn--ghost btn--sm" href="sessions/06/notes.html">Presenter notes</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="wrap">
+      <div class="section__head">
+        <h2 class="h2">How to use this.</h2>
+      </div>
+      <div class="how">
+        <div>
+          <h3>Presenting</h3>
+          <p>Open a deck in Chrome, Safari or Edge and share the window on Zoom. Each slide is one idea; polls are run as Zoom polls from the question on screen, and the answer appears on the next click.</p>
+          <ul style="margin-top:14px">
+            <li><span><kbd>&rarr;</kbd> <kbd>Space</kbd></span><span>Next reveal, then next slide</span></li>
+            <li><span><kbd>&larr;</kbd></span><span>Back</span></li>
+            <li><span><kbd>F</kbd></span><span>Full screen</span></li>
+            <li><span><kbd>N</kbd></span><span>Presenter notes in a new window</span></li>
+            <li><span><kbd>P</kbd></span><span>Print view, then save as PDF</span></li>
+            <li><span><kbd>Esc</kbd></span><span>Overview of every slide</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Sharing afterwards</h3>
+          <p>Every deck stands on its own. Send members the link to a session, or the link to this page. The notes open on a phone and explain each slide in full, so nobody needs the recording to follow it.</p>
+          <p>The decks print cleanly: press <kbd>P</kbd> in a deck, then save as PDF for a chapter group.</p>
+        </div>
+        <div>
+          <h3>Updating</h3>
+          <p>The site is plain HTML in a public GitHub repository. Each session is one folder with the deck, the notes and the poll text. Every statistic is listed with its source in the data folder, so a number can be checked or refreshed in minutes.</p>
+        </div>
+      </div>
+      <div class="fiction">
+        <img src="assets/img/sharma/logo.svg" alt="Sharma Plumbing Works">
+        <p><strong>Sharma Plumbing Works is a fictional business.</strong> Founded in 2006 by Rajesh Sharma in Kothrud, Pune, and now run with his son Aditya, it has 18 staff, excellent word of mouth and almost nothing online. Every session shows Sharma before and after on that month's layer, so no real member or competitor is ever used as the weak example.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="lockup">
+      <img class="lockup__tsl" src="assets/brand/tsl-mark.png" alt="The Strategy Lab">
+      <span class="lockup__sep"></span>
+      <img class="lockup__ipa" src="assets/brand/ipa-logo.png" alt="Indian Plumbing Association">
+    </div>
+    <p>Prepared by The Strategy Lab for the Indian Plumbing Association. Questions and corrections: <a href="mailto:dhruv@thestrategylab.in">dhruv@thestrategylab.in</a>, <a href="https://thestrategylab.in">thestrategylab.in</a>. Platform names and logos belong to their owners and identify the platforms only.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="assets/js/map.js"></script>
+</body>
+</html>

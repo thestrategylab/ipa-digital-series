@@ -1,0 +1,110 @@
+[
+  {
+    "id": "s01-active-internet-users-india-2024",
+    "figure": "886 million",
+    "claim_as_shown": "886 million Indians were active internet users in 2024, and more of them live in rural India (488 million) than in cities (397 million).",
+    "publisher": "IAMAI and Kantar",
+    "title": "Internet in India 2024 (ICUBE 2024)",
+    "year": "2024",
+    "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/01"],
+    "notes": "Opened the PDF and read it. Exact line on the context page: 'Base: ICUBE 2024, Active Internet Users, 886 Million, Urban India 397 Million, Rural India 488 Million'. The chart on the same page shows 886 Mn for 2024 at 52% of population and a projection of 900 Mn+ by 2025. Report was published in January 2025 and describes calendar 2024. This counts people (active users), unlike TRAI which counts subscriptions. Recommended for the guess-the-number slide. The newer Internet in India 2025 edition (reported in the press as 958 million) could not be opened on any IAMAI or Kantar page, so it is not used."
+  },
+  {
+    "id": "s01-internet-subscriptions-trai-march-2026",
+    "figure": "1,092.79 million",
+    "claim_as_shown": "India had 1,092.79 million internet subscriptions at the end of March 2026, up 12.76% in a year (these are connections, not people).",
+    "publisher": "Telecom Regulatory Authority of India (TRAI)",
+    "title": "The Indian Telecom Services Yearly Performance Indicators 2025-26, Press Release No. 127/2026",
+    "year": "2026",
+    "url": "https://trai.gov.in/sites/default/files/2026-10/PR_No127of2026.pdf",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/01"],
+    "notes": "Opened the PDF (dated New Delhi, 5 October 2026). Executive Summary item 1: 'Total number of internet subscribers increased from 969.10 million at the end of March 2025 to 1092.79 million at the end of March 2026 with yearly rate of growth of 12.76%. Out of total 1092.79 million internet subscribers, number of broadband subscribers is 1065.88 million, and number of narrowband subscribers is 26.91 million at the end of March 2026.' Use as the supporting line under the IAMAI people figure, with the words 'subscriptions, not people' on the slide."
+  },
+  {
+    "id": "s01-wireless-share-trai-dec-2025",
+    "figure": "983.29 million of 1,028.61 million",
+    "claim_as_shown": "Of India's 1,028.61 million internet connections at the end of December 2025, 983.29 million were wireless: your customer is almost always on a phone.",
+    "publisher": "Telecom Regulatory Authority of India (TRAI)",
+    "title": "The Indian Telecom Services Performance Indicators, October to December 2025, Press Release No. 32/2026",
+    "year": "2026",
+    "url": "https://www.trai.gov.in/sites/default/files/2026-03/PR_No.32of2026.pdf",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/01"],
+    "notes": "Opened the PDF. Item 1: 'Total number of Internet subscribers increased from 1017.81 million at the end of Sep-25 to 1028.61 million at the end of Dec-25 ... number of Wired Internet subscribers are 45.32 million and number of Wireless Internet subscribers are 983.29 million.' Optional supporting figure for the map or journey slide (phone-first behaviour)."
+  },
+  {
+    "id": "s01-research-before-purchase-india-2021",
+    "figure": "64%",
+    "claim_as_shown": "64% of Indians research products online before making a purchase (2021).",
+    "publisher": "Think with Google India",
+    "title": "Year in Search India 2021: Digital mainstreamed, lives re-examined",
+    "year": "2021",
+    "url": "https://www.thinkwithgoogle.com/_qs/documents/15123/YIS_IN_2021-compressed_2-compressed.pdf",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/01"],
+    "notes": "Opened the PDF. Exact sentence: 'In fact, 64% of Indians research products before making a purchase to ensure they get the right product or service that meets their needs.' Footnote 25: 'Google commissioned Kantar/Quantum Report, Emotional Value of Search 2021, IN, n=1002.' General population figure, older than the 2026 festive-season study below; keep as fallback or as the second line."
+  },
+  {
+    "id": "s01-offline-shoppers-use-search-india-2021",
+    "figure": "63%",
+    "claim_as_shown": "63% of urban Indians who buy offline still use Google Search just before the purchase (2021).",
+    "publisher": "Think with Google India",
+    "title": "Year in Search India 2021: Digital mainstreamed, lives re-examined",
+    "year": "2021",
+    "url": "https://www.thinkwithgoogle.com/_qs/documents/15123/YIS_IN_2021-compressed_2-compressed.pdf",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/01"],
+    "notes": "Opened the PDF. Exact sentence: 'Even those who purchase offline still refer to digital channels during their research journey, 63% of urban offline shoppers use Search just before their purchase.' Footnote 8: 'Google/Kantar, Multi Category Path-to-Purchase Research with Kantar, IN, n=4600+ offline & online shoppers, Jan. 2021.' Good for the 'where businesses leak' idea: the job is won offline but checked online first."
+  },
+  {
+    "id": "s01-open-now-near-me-india-2021",
+    "figure": "1.6x",
+    "claim_as_shown": "Searches for 'open now near me' grew more than 1.6 times in India in a year (2021).",
+    "publisher": "Think with Google India",
+    "title": "Year in Search India 2021: Digital mainstreamed, lives re-examined",
+    "year": "2021",
+    "url": "https://www.thinkwithgoogle.com/_qs/documents/15123/YIS_IN_2021-compressed_2-compressed.pdf",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/01"],
+    "notes": "Opened the PDF. Exact sentence: 'Search interest in \"open now near me\" has grown over 1.6x in India year over year.' Google Search data, India, 2021. Supporting figure for the Home layer (Google Business Profile) on the map slide."
+  },
+  {
+    "id": "s01-researched-before-buying-india-2026",
+    "figure": "9 in 10",
+    "claim_as_shown": "9 in 10 Indian shoppers who bought something during the 2025 festive season say they researched online first.",
+    "publisher": "Think with Google India (Google/Ipsos)",
+    "title": "Win India's Tyohaar 2026: Tap into these 4 AI-powered consumer forces",
+    "year": "2026",
+    "url": "https://business.google.com/in/think/consumer-insights/festive-advertising-strategy-ai-search-india/",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/01"],
+    "notes": "Opened the page (September 2026, by Sourav Nandi, Google). Exact wording: '9 in 10 shoppers who made a purchase report that they researched beforehand, with 33% saying they did \"a lot of research\".' Source note 4: 'Google/Ipsos, India, Shopping Moments Study, online survey, n=2410 who made a purchase, Sept. 2025 to Nov. 2025', across seven categories (jewellery, furniture and home decor, apparel, mobile devices, personal care and cosmetics, consumer electronics, appliances). Consumer products, not services; say 'festive shoppers' on the slide. Same page: shoppers 'performed 8.3 searches on search engines' and 'watched 7.7 online videos' per journey (n=2450). Recommended for the midway fact."
+  },
+  {
+    "id": "s01-social-to-search-india-2026",
+    "figure": "69%",
+    "claim_as_shown": "69% of Indian festive shoppers who saw a brand on Facebook or Instagram went to Google Search to check it further.",
+    "publisher": "Think with Google India (Google/Ipsos)",
+    "title": "Win India's Tyohaar 2026: Tap into these 4 AI-powered consumer forces",
+    "year": "2026",
+    "url": "https://business.google.com/in/think/consumer-insights/festive-advertising-strategy-ai-search-india/",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/01"],
+    "notes": "Opened the page. Exact wording: 'Nearly 7 in 10 (69%) of shoppers in India during Navratri/Diwali who used Facebook and/or Instagram went to Google Search to research further after seeing a brand or product on those platforms.' Source note 7: same Google/Ipsos Shopping Moments Study, 'n=1962 who used Facebook and/or Instagram', Sept. 2025 to Nov. 2025. This is the evidence for the big idea that the layers hand a customer from one to the next: Discovery (Instagram) sends people to Home (Google)."
+  },
+  {
+    "id": "s01-reviews-never-read-brightlocal-2025",
+    "figure": "4%",
+    "claim_as_shown": "Only 4% of consumers say they never read online reviews of a business, and 74% check two or more review sites before choosing (United States, 2025; no Indian equivalent found).",
+    "publisher": "BrightLocal",
+    "title": "Local Consumer Review Survey 2025",
+    "year": "2025",
+    "url": "https://www.brightlocal.com/research/local-consumer-review-survey-2025/",
+    "fetched_on": "2026-10-16",
+    "used_in": ["sessions/01"],
+    "notes": "Opened the page (published 29 January 2025). Exact wording: 'just 4% of consumers say they \"never\" read online business reviews' and '74% of consumers say they use two or more' review sites. Sample: 'a representative panel of 1,026 US adult consumers via SurveyMonkey'. US figure, used only because no Indian figure on review reading was found on a page we could open; the slide must say 'United States, 2025'."
+  }
+]

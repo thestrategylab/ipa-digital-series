@@ -1,0 +1,145 @@
+[
+  {
+    "id": "s06-google-kantar-genai-tried-2025",
+    "figure": "31%",
+    "claim_as_shown": "Only 31% of Indians surveyed had tried any generative AI tool, and 60% were not familiar with AI at all.",
+    "publisher": "Google India with Kantar",
+    "title": "75% of Indians desire a daily growth collaborator: Google-Kantar report (Google India Blog)",
+    "year": "2025",
+    "url": "https://blog.google/intl/en-in/products/75-of-indians-desire-a-daily-growth-collaborator-google-kantar-report/",
+    "fetched_on": "2026-10-16",
+    "notes": "Indian figure. Google's own publication of its Kantar study, post dated 25 April 2025 by Shekar Khosla (VP Marketing, Google India) and Manish Gupta (Director, Google DeepMind). Exact line: '60% aren't familiar with AI, and only 31% have tried any Generative AI tool'. Sample: over 8,000 people across 18 cities; phase 1 was 5,133 face-to-face household interviews, ages 18 to 44, SEC A and B households, fieldwork November 2024 to January 2025. Use as the guess-the-number fact for the AI tools section. Say 'people surveyed' not 'Indians'. The full report PDF is a Google Drive link and was not opened; the blog post is the cited page. Page render: assets/img/s06/google-kantar-genai-india-blog.png."
+  },
+  {
+    "id": "s06-google-ipsos-genai-shopping-india-2025",
+    "figure": "7.5 times; 51%",
+    "claim_as_shown": "Indian festive shoppers who used generative AI used it 7.5 times on average during their shopping journey, and 51% said it helped them make decisions.",
+    "publisher": "Think with Google India (Google/Ipsos)",
+    "title": "Win India's Tyohaar 2026: Tap into these 4 AI-powered consumer forces",
+    "year": "2026",
+    "url": "https://business.google.com/in/think/consumer-insights/festive-advertising-strategy-ai-search-india/",
+    "fetched_on": "2026-10-16",
+    "notes": "Indian figure. Exact lines: 'shoppers used generative AI chatbots 7.5 times on average during their Navratri/Diwali shopping journey' and '51% say it helped them make decisions'. Footnotes 11 and 12: Google/Ipsos, India, Shopping Moments Study, online survey of consumers 18+ who shopped for Navratri/Diwali, n=2,275 who used AI platforms or features while shopping, fielded September to November 2025. Consumer shopping context, not trade buying, so label it 'festive shoppers' on the slide. Same page as s01-researched-before-buying-india-2026."
+  },
+  {
+    "id": "s06-wti-2024-ai-at-work-75",
+    "figure": "75%",
+    "claim_as_shown": "75% of knowledge workers surveyed across 31 countries, India among them, already use AI at work.",
+    "publisher": "Microsoft and LinkedIn",
+    "title": "2024 Work Trend Index Annual Report: AI at Work Is Here. Now Comes the Hard Part",
+    "year": "2024",
+    "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part",
+    "fetched_on": "2026-10-16",
+    "notes": "Global figure; India is one of the 31 markets but the page gives no India breakdown, so say 'global survey, India included'. Exact line: '75% of knowledge workers use AI at work today'. Survey by Edelman Data and Intelligence, 31,000 full-time employed or self-employed knowledge workers in 31 markets, about 1,000 per market, 15 February to 28 March 2024. The '92%' figures on the page are about AI power users, not India; the India-specific 92% quoted in press is not on this page. Page render: assets/img/s06/microsoft-work-trend-index-2024.png."
+  },
+  {
+    "id": "s06-wti-2024-byoai-smb-80",
+    "figure": "78%; 80% at small and medium companies",
+    "claim_as_shown": "78% of people who use AI at work bring their own AI tools rather than company-provided ones, rising to 80% at small and medium-sized companies.",
+    "publisher": "Microsoft and LinkedIn",
+    "title": "2024 Work Trend Index Annual Report: AI at Work Is Here. Now Comes the Hard Part",
+    "year": "2024",
+    "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part",
+    "fetched_on": "2026-10-16",
+    "notes": "Global figure, same survey as s06-wti-2024-ai-at-work-75. Exact lines: '78% of AI users are bringing their own AI tools to work' and 'even more common at small and medium-sized companies (80%)'. Useful for the 'one rule before anything goes out' point: staff are already using these tools, so the owner needs a checking rule."
+  },
+  {
+    "id": "s06-brightlocal-2026-reply-all-80",
+    "figure": "80%",
+    "claim_as_shown": "80% of consumers say they are likely to use a business that replies to all of its reviews; 42% are unlikely to use one that never replies.",
+    "publisher": "BrightLocal",
+    "title": "Local Consumer Review Survey 2026: Star Ratings Keep Rising, Old Reviews Don't Cut It",
+    "year": "2026",
+    "url": "https://www.brightlocal.com/learn/local-consumer-review-survey/",
+    "fetched_on": "2026-10-16",
+    "notes": "US figure (1,002 US adult consumers via SurveyMonkey; published 11 February 2026); say 'US survey, no Indian equivalent found'. Exact line: '80% of consumers say they're likely to use a business that responds to all of its reviews. 42% say they're unlikely to use a business that never replies.' Page render: assets/img/s06/brightlocal-review-survey-2026.png. Session 5 used the same edition; keep wording consistent with sources-05 if it cites this line."
+  },
+  {
+    "id": "s06-brightlocal-2026-templated-replies-50",
+    "figure": "50%",
+    "claim_as_shown": "Generic or templated review replies put off 50% of consumers.",
+    "publisher": "BrightLocal",
+    "title": "Local Consumer Review Survey 2026: Star Ratings Keep Rising, Old Reviews Don't Cut It",
+    "year": "2026",
+    "url": "https://www.brightlocal.com/learn/local-consumer-review-survey/",
+    "fetched_on": "2026-10-16",
+    "notes": "US figure, same survey as s06-brightlocal-2026-reply-all-80. Exact line: 'Generic or templated replies put off 50% of consumers, who may see them as a sign of subpar customer care.' This is the sourced reason for the AI rule: a tool can draft the reply, a person must make it specific before it goes out."
+  },
+  {
+    "id": "s06-brightlocal-2026-ai-recommendations-45",
+    "figure": "45% (from 6%)",
+    "claim_as_shown": "Use of ChatGPT and other generative AI tools to find local business recommendations rose from 6% to 45% in a year, making them the third most used source.",
+    "publisher": "BrightLocal",
+    "title": "Local Consumer Review Survey 2026: Star Ratings Keep Rising, Old Reviews Don't Cut It",
+    "year": "2026",
+    "url": "https://www.brightlocal.com/learn/local-consumer-review-survey/",
+    "fetched_on": "2026-10-16",
+    "notes": "US figure, same survey. Exact line: 'Use of ChatGPT and other generative AI tools for local recommendations has grown rapidly, rising from 6% last year to 45% and becoming the third most popular source of business recommendations.' Good second beat for the 'new tools' part: customers use these tools too, not only businesses."
+  },
+  {
+    "id": "s06-brightlocal-2026-recent-reviews-74",
+    "figure": "74%; 41%",
+    "claim_as_shown": "74% of consumers look for reviews written in the last three months, and 41% now always read reviews before choosing a business (29% a year earlier).",
+    "publisher": "BrightLocal",
+    "title": "Local Consumer Review Survey 2026: Star Ratings Keep Rising, Old Reviews Don't Cut It",
+    "year": "2026",
+    "url": "https://www.brightlocal.com/learn/local-consumer-review-survey/",
+    "fetched_on": "2026-10-16",
+    "notes": "US figure, same survey. Exact lines: '74% seek reviews written in the last three months.' and 'In 2026, 41% of consumers \"always\" read reviews when browsing for businesses, a huge jump from last year (29%).' Backs the if-then card 'jobs up but no reviews': reviews go stale in three months, so the number to watch is new reviews this month, not the total."
+  },
+  {
+    "id": "s06-gbp-performance-metrics",
+    "figure": "Views, Calls, Website clicks, Messages, Directions, Searches",
+    "claim_as_shown": "Google Business Profile's Performance screen shows how many people viewed your profile, called, clicked your website, messaged you or asked for directions.",
+    "publisher": "Google",
+    "title": "Understand your Business Profile performance and insights (Google Business Profile Help)",
+    "year": "2026",
+    "url": "https://support.google.com/business/answer/9918094",
+    "fetched_on": "2026-10-16",
+    "notes": "Definitions, not a survey figure. Exact lines: 'Views: How many people viewed your Business Profile on Search and Maps.' 'Calls: The number of times a customer clicked on the call button on your Business Profile.' 'Website clicks: The number of times people clicked on the website link on your Business Profile.' 'Messages: The number of different conversations through messages.' 'Directions: How many people asked for directions to your business.' 'Searches: The search terms people used to find your business.' Also: 'Performance data is available only for verified Business Profiles' and Views counts unique visitors, at most one visit per person per day. The one number for the scorecard is Views (profile views) plus Calls and Messages as enquiries. Page render: assets/img/s06/gbp-help-performance.png; Google's own dashboard illustration: assets/img/s06/gbp-performance-dashboard-sample.png."
+  },
+  {
+    "id": "s06-instagram-insights-definitions",
+    "figure": "Views, Viewers, Interactions, Accounts engaged, Total followers",
+    "claim_as_shown": "Instagram insights show Views, Viewers, Interactions, New followers and Content you shared for any period within the last 90 days; the account must be public.",
+    "publisher": "Meta",
+    "title": "About Instagram Insights (Meta Business Help Centre) and View account and content insights on Instagram (Instagram Help Centre)",
+    "year": "2026",
+    "url": "https://www.facebook.com/business/help/441651653251838",
+    "fetched_on": "2026-10-16",
+    "notes": "Definitions. Exact lines from the Meta Business Help Centre page: 'From the Instagram app, you can see an insights overview that includes Views, Interactions, New followers and Content you shared.' 'Views: The number of times that your content was played or displayed.' 'Viewers: The number of unique accounts that have seen your content on screen at least once'. 'Interactions: the number of actions that people take when they engage with your content, such as likes, comments, saves and shares.' Companion page https://help.instagram.com/1533933820244654: 'You need to have a public (personal or professional) account on Instagram to view insights.' and insights cover 'any time period within the last 90 days'. Both pages were read through headless Chrome DOM dumps (they are script-rendered). Renders: assets/img/s06/meta-help-instagram-insights.png and assets/img/s06/instagram-help-insights.png. For the scorecard the one number is Viewers (people reached) or, better, messages and profile visits which Instagram reports under Interactions and in the professional dashboard; say 'enquiries that came through Instagram' and count them by hand."
+  },
+  {
+    "id": "s06-linkedin-page-analytics",
+    "figure": "Content, Followers, Visitors, Search appearances",
+    "claim_as_shown": "LinkedIn Page analytics show who visits and follows your page, how your posts performed and who searched for you; available to all page admins.",
+    "publisher": "LinkedIn",
+    "title": "LinkedIn Page analytics (LinkedIn Help)",
+    "year": "2025",
+    "url": "https://www.linkedin.com/help/linkedin/answer/a547077",
+    "fetched_on": "2026-10-16",
+    "notes": "Definitions. Exact lines: 'Analytics are available for all Page admin roles.' Table: Content, 'Effectiveness of your updates, including posted videos'; Followers, 'Demographics and sources of followers'; Visitors, 'Demographics and sources of visitors'; Search appearances, 'Demographics and sources of searches'. Page says 'Last updated: 1 year ago' at capture. The owner's personal profile analytics (views of your profile, search appearances) sit behind login and are not on a public page; describe them in words only. Render: assets/img/s06/linkedin-help-page-analytics.png."
+  },
+  {
+    "id": "s06-google-ads-overview-and-conversion",
+    "figure": "Overview page; conversions",
+    "claim_as_shown": "The Google Ads Overview page summarises performance over the last 7 days against the 7 days before; a conversion is the action you chose to count, for a plumbing business a call or an enquiry.",
+    "publisher": "Google",
+    "title": "About the Overview page; Key event, Conversion and Purchase definition (Google Ads Help)",
+    "year": "2026",
+    "url": "https://support.google.com/google-ads/answer/7321090",
+    "fetched_on": "2026-10-16",
+    "notes": "Definitions. Exact lines: 'The Overview page lets you review your performance at a glance.' The Performance summary card 'summarizes performance changes over the last 7 days compared to 7 days prior based on your account goals.' Conversions card: 'the number of conversions you received after ad interactions'. Second page https://support.google.com/google-ads/answer/6365: 'A conversion is an action used to measure the performance of your ad campaigns and optimize your bidding strategy.' Rule 1: the screen says 'conversions'; the slide must add in plain words 'enquiries the ad produced'. Clicks definition (https://support.google.com/google-ads/answer/31799): 'When someone clicks your ad, like on the blue headline or phone number of a text ad, Google Ads counts that as a click.' Render: assets/img/s06/google-ads-help-overview-page.png."
+  },
+  {
+    "id": "s06-meta-ads-manager-wording",
+    "figure": "Ads Manager reporting",
+    "claim_as_shown": "Meta's Ads Manager is where you see whether your ads are producing the result you asked for, with reporting that shows trends over time.",
+    "publisher": "Meta",
+    "title": "Meta Ads Manager: Ad Campaign Hub for Facebook and Instagram (Meta for Business)",
+    "year": "2026",
+    "url": "https://www.facebook.com/business/tools/ads-manager",
+    "fetched_on": "2026-10-16",
+    "notes": "Wording only, no figure. Exact lines (read via headless Chrome DOM dump with locale=en_GB; the default page served in India is Hindi): 'Ads Manager is your starting point for running ads on Facebook, Instagram, Messenger or Audience Network. It's an all-in-one tool for creating ads, managing when and where they'll run, and tracking how well your campaigns are performing towards your marketing goals.' and 'Get real-time insights. See if your ads are driving their intended goal with reporting tools. By spotting trends over time, you can identify areas to adjust'. Meta's official definition of the 'Results' and 'Cost per result' columns is on a help page that could not be retrieved (see notes_unverified); describe them in plain words without quoting Meta: results = the number of times the ad did what you asked (for Sharma, enquiries); cost per result = spend divided by results. Render: assets/img/s06/meta-ads-manager-page.png (crop out the login prompt bottom right)."
+  }
+]

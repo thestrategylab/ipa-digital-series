@@ -1,0 +1,149 @@
+[
+  {
+    "file": "assets/img/s05/whatsapp-glyph-green.png",
+    "source": "WhatsApp Brand Resource Center (Meta), official logo pack, Digital Glyph Green RGB 2026",
+    "licence": "Meta brand guidelines: use only unmodified official logos, do not change colours, WhatsApp must not be the most prominent element, no implied endorsement",
+    "url": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+    "notes": "2880 x 2880 PNG, transparent. SVG copy at assets/img/s05/whatsapp-glyph-green.svg."
+  },
+  {
+    "file": "assets/img/s05/whatsapp-glyph-green.svg",
+    "source": "WhatsApp Brand Resource Center (Meta), official logo pack, Digital Glyph Green RGB 2026",
+    "licence": "Meta brand guidelines, as above",
+    "url": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+    "notes": "Vector glyph."
+  },
+  {
+    "file": "assets/img/s05/whatsapp-inline-green.png",
+    "source": "WhatsApp Brand Resource Center (Meta), official logo pack, Digital Inline Green RGB 2026",
+    "licence": "Meta brand guidelines, as above",
+    "url": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+    "notes": "5950 x 1385 PNG, transparent, glyph plus wordmark."
+  },
+  {
+    "file": "assets/img/s05/pexels-prakash-chavda-man-holding-pipes-rajkot.jpg",
+    "source": "Pexels, photo 'Man holding Pipes' by Prakash Chavda, Rajkot, Gujarat, India",
+    "licence": "Pexels License (free to use, attribution not required but given)",
+    "url": "https://www.pexels.com/photo/man-holding-pipes-7013085/",
+    "notes": "1920 x 1280 JPEG. Man seated outdoors fitting metal pipes, Indian street setting. Good for the title or the 'customer list as an asset' slide."
+  },
+  {
+    "file": "assets/img/s05/pexels-wafiq-raza-rooftop-blue-water-tank.jpg",
+    "source": "Pexels, photo 'Chairs on a Roof' by Wafiq Raza",
+    "licence": "Pexels License (free to use, attribution not required but given)",
+    "url": "https://www.pexels.com/photo/a-patio-with-chairs-and-a-blue-water-tank-27240391/",
+    "notes": "1920 x 2880 JPEG, portrait. Rooftop with blue overhead water tanks on neighbouring buildings. Location not stated on the page (South Asian rooftop). Good for the tank cleaning reminder in the 12-month calendar."
+  },
+  {
+    "file": "assets/img/s05/pexels-dibakar-roy-monsoon-kolkata.jpg",
+    "source": "Pexels, photo 'Monsoon Flooding in Kolkata City Streets During Rain' by Dibakar Roy, Kolkata, West Bengal, India",
+    "licence": "Pexels License (free to use, attribution not required but given)",
+    "url": "https://www.pexels.com/photo/monsoon-flooding-in-kolkata-city-streets-during-rain-30309546/",
+    "notes": "1920 x 1279 JPEG. Waterlogged street in Kolkata. Good for the pre-monsoon check reminder. A bank sign and a car number plate are visible; crop or blur if the slide zooms in."
+  },
+  {
+    "file": "assets/img/s05/hbr-value-of-keeping-customers.png",
+    "source": "Screenshot of public page, Harvard Business Review, 'The Value of Keeping the Right Customers' by Amy Gallo, 29 Oct 2014",
+    "licence": "Screenshot of a public web page, used as a source citation",
+    "url": "https://hbr.org/2014/10/the-value-of-keeping-the-right-customers",
+    "notes": "1440 x 900. Captured with ad domains blocked, so the top 300 px is a blank ad band; crop to the headline and first paragraph, which shows the five to 25 times line."
+  },
+  {
+    "file": "assets/img/s05/brightlocal-review-survey-2026.png",
+    "source": "Screenshot of public page, BrightLocal, Local Consumer Review Survey 2026",
+    "licence": "Screenshot of a public web page, used as a source citation",
+    "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+    "notes": "1440 x 900, page header with title and date."
+  },
+  {
+    "file": "assets/img/s05/imd-monsoon-onset.png",
+    "source": "Screenshot of public page, India Meteorological Department, Monsoon Information: Onset",
+    "licence": "Government of India web page, screenshot used as a source citation",
+    "url": "https://mausam.imd.gov.in/responsive/monsooninformation_onset.php",
+    "notes": "1440 x 900, shows the 'normally sets in over Kerala around 1st June' line at the bottom."
+  },
+  {
+    "file": "assets/img/s05/whatsapp-faq-broadcast-lists.png",
+    "source": "Screenshot of public page, WhatsApp Help Center, 'How to use broadcast lists'",
+    "licence": "Screenshot of a public help page, used as a reference",
+    "url": "https://faq.whatsapp.com/861663048350950/",
+    "notes": "1440 x 900. A small 'Does this answer your question?' box sits bottom right; crop if used large."
+  },
+  {
+    "file": "assets/img/s05/google-help-manage-reviews.png",
+    "source": "Screenshot of public page, Google Business Profile Help, 'Manage customer reviews'",
+    "licence": "Screenshot of a public help page, used as a reference",
+    "url": "https://support.google.com/business/answer/3474050?hl=en",
+    "notes": "1440 x 900."
+  },
+  {
+    "file": "assets/img/s05/google-help-tips-more-reviews.png",
+    "source": "Screenshot of public page, Google Business Profile Help, 'Tips to get more reviews'",
+    "licence": "Screenshot of a public help page, used as a reference",
+    "url": "https://support.google.com/business/answer/3474122?hl=en",
+    "notes": "1440 x 900. Shows the 'incentives are prohibited' rule and the three best practices."
+  },
+  {
+    "file": "assets/img/s05/kent-amc-page.png",
+    "source": "Screenshot of public page, KENT RO Systems, 'KENT AMC - Annual Maintenance Contract'",
+    "licence": "Screenshot of a public web page, shown as a good example with a link",
+    "url": "https://www.kent.co.in/pages/customer-service-amc",
+    "notes": "1440 x 900. Two benefit icons failed to load on the page itself (broken image boxes); crop to the hero band if that bothers the design reviewer."
+  },
+  {
+    "file": "assets/img/s05/kirloskar-pumps-amc-services.png",
+    "source": "Screenshot of public page, Kirloskar Brothers Limited e-shop, Services",
+    "licence": "Screenshot of a public web page, shown as a good example with a link",
+    "url": "https://eshop.kirloskarpumps.com/services-home",
+    "notes": "1440 x 900."
+  },
+  {
+    "file": "assets/img/s05/residenso-pune-society-maintenance.png",
+    "source": "Screenshot of public page, Residenso Solutions LLP, Pune, Plumbing (society maintenance)",
+    "licence": "Screenshot of a public web page, shown as a good example with a link",
+    "url": "https://www.residenso.com/plumbing.php",
+    "notes": "1440 x 900."
+  },
+  {
+    "file": "assets/img/s05/synergy-pune-amc-page.png",
+    "source": "Screenshot of public page, Synergy Repairs and Maintenance, Pune, AMC service provider page",
+    "licence": "Screenshot of a public web page, shown as a good example with a link",
+    "url": "https://synergyrm.in/amc-service-provider-in-pune/",
+    "notes": "1440 x 900. Cartoon mascot on the page; optional, crop to the header band if used."
+  },
+  {
+    "file": "assets/img/s05/ipa-home.png",
+    "source": "Screenshot of public page, Indian Plumbing Association home page",
+    "licence": "Screenshot of a public web page (IPA is the client)",
+    "url": "https://www.indianplumbing.org/",
+    "notes": "1440 x 900, shows the 32nd IPC banner."
+  },
+  {
+    "file": "assets/img/s05/ipa-pune-chapter-page.png",
+    "source": "Screenshot of public page, Indian Plumbing Association, Pune Chapter",
+    "licence": "Screenshot of a public web page (IPA is the client)",
+    "url": "https://www.indianplumbing.org/chapters/national-chapters/pune/",
+    "notes": "1440 x 900. Shows the chapter office address and a personal email address of the chapter contact; blur the email if the slide zooms in."
+  },
+  {
+    "file": "assets/img/s05/ipa-news-monthly-issues.png",
+    "source": "Screenshot of public page, Indian Plumbing Association, IPA News monthly issues",
+    "licence": "Screenshot of a public web page (IPA is the client)",
+    "url": "https://www.indianplumbing.org/event-activities/ipa-news/",
+    "notes": "1440 x 900."
+  },
+  {
+    "file": "assets/img/s05/meta-whatsapp-brand-page.png",
+    "source": "Screenshot of public page, Meta Brand Resource Center, WhatsApp brand assets and guidelines",
+    "licence": "Screenshot of a public web page, reference only",
+    "url": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+    "notes": "1440 x 900. Reference for the builder; not for a slide."
+  },
+  {
+    "file": "assets/img/s05/whatsapp-business-app-page.png",
+    "source": "Screenshot of public page, WhatsApp Business app product page",
+    "licence": "Screenshot of a public web page, reference only",
+    "url": "https://business.whatsapp.com/products/business-app",
+    "notes": "1440 x 900. Cookie banner across the bottom 80 px; crop if used."
+  }
+]

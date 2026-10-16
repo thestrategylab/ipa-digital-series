@@ -1,0 +1,17 @@
+{
+  "_about": "Statistics used by the foundation agent in the template deck. Session builders record theirs in data/sources.json with the same fields; the head agent may merge this file into it.",
+  "sources": [
+    {
+      "id": "trai-internet-subscribers-jun-2025",
+      "figure": "1,002.85 million",
+      "claim_as_shown": "India had 1,002.85 million internet subscriptions at the end of June 2025, up from 969.10 million three months earlier.",
+      "publisher": "Telecom Regulatory Authority of India (TRAI)",
+      "title": "Indian Telecom Services Performance Indicator Report for the Quarter April to June 2025, Press Release No. 86/2025, Executive Summary point 1",
+      "year": "2025",
+      "url": "https://trai.gov.in/sites/default/files/2025-09/PR_No.86of2025.pdf",
+      "fetched_on": "2026-10-16",
+      "note": "Read on page 2 of the PDF: 'Total number of Internet subscribers increased from 969.10 million at the end of Mar-25 to 1002.85 million at the end of Jun-25, registering a quarterly rate of growth 3.48%.' Subscriptions, not people: one person can hold more than one.",
+      "used_in": ["sessions/00-template/index.html"]
+    }
+  ]
+}

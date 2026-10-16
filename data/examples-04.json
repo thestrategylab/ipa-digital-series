@@ -1,0 +1,62 @@
+[
+  {
+    "id": "x04-astral-meta-ads",
+    "name": "Astral Pipes (Astral Limited), active Meta ads in India",
+    "type": "Real Meta ad, Indian plumbing manufacturer",
+    "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&q=Astral%20Pipes&search_type=keyword_unordered&media_type=all",
+    "screenshot": "assets/img/s04/meta-ad-library-astral-pipes.png",
+    "verified_live": "2026-10-16, public page, no login, about 98 active ads",
+    "why_good": "Shows what a Meta ad looks like to the viewer, from a brand the room knows. The middle card is the clearest: one audience (people who could become dealers), one line ('Become a dealer with India's Safest Water Tank Brand!'), one button ('Get Offer'). That is the shape of a good ad: one offer, one ask.",
+    "use_on_slide": "Three platforms, three jobs (Meta card), and as the model for the Sharma 'after' Meta ad mockup."
+  },
+  {
+    "id": "x04-astral-google-ads",
+    "name": "Astral Limited on Google Ads Transparency Centre (astralpipes.com)",
+    "type": "Real Google search ad, Indian plumbing manufacturer",
+    "url": "https://adstransparency.google.com/?region=IN&domain=astralpipes.com",
+    "screenshot": "assets/img/s04/google-ads-transparency-astral.png",
+    "verified_live": "2026-10-16, public page, no login, 13 ads listed",
+    "why_good": "The first card is a real Google search ad as a viewer sees it: 'Astral Pipes - India - Industrial Pipe Manufacturer - Get A Quote', two lines of text, and extra links (24/7 Customer Support, CPVC Pipes, Contact Us, All Over India). Plain, specific, and it names what the business wants you to do.",
+    "use_on_slide": "Three platforms, three jobs (Google card). Crop to the first card if the video thumbnails distract."
+  },
+  {
+    "id": "x04-jaquar-dealer-meta-ads",
+    "name": "Jaquar India, dealer-level Meta ads (Bath World, Bengaluru; Balaji Expo India, Rohini)",
+    "type": "Real Meta ad localised to a city dealer",
+    "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IN&q=Jaquar&search_type=keyword_unordered&media_type=all",
+    "screenshot": "assets/img/s04/meta-ad-library-jaquar-dealers.png",
+    "verified_live": "2026-10-16, public page, no login, about 840 results",
+    "why_good": "The second and third cards are Jaquar ads that name one showroom and its address (Bath World, Basaveshwara Nagar, Bengaluru; Balaji Expo India, Rohini). This is the opposite of 'aimed at all of India': a national brand paying to be seen only around one dealer. Good model for Sharma's one-city ad.",
+    "use_on_slide": "Mistakes that waste money (the counter-example), or the Sharma 'after'. Crop out the first card (an unrelated gym equipment ad that matched the keyword)."
+  },
+  {
+    "id": "x04-ipc-2026-site",
+    "name": "32nd Indian Plumbing Conference and Exhibition, IPC 2026, Chennai",
+    "type": "Chapter and HQ event page with registration links",
+    "url": "https://www.indianplumbingconference.com/2026",
+    "screenshot": "assets/img/s04/ipc-2026-event-page.png (also assets/img/s04/ipc-2026-home.png)",
+    "verified_live": "2026-10-16, public, no login; cookie bar at the foot of the capture, crop the bottom 140px",
+    "why_good": "Everything a small event ad needs to point at: dates, venue, who it is for, two clear buttons (Delegate Registration, Visitor Registration), free visitor entry, fees stated. An ad is only worth running when the link it sends people to is this clear.",
+    "use_on_slide": "For chapters: promoting an event with a small budget and a registration link."
+  },
+  {
+    "id": "x04-google-search-ads-page",
+    "name": "Google Ads, Search ads page (India)",
+    "type": "Official platform page with an example ad",
+    "url": "https://business.google.com/in/ad-solutions/search/",
+    "screenshot": "assets/img/s04/google-search-ads-page-in.png",
+    "verified_live": "2026-10-16, public, no login",
+    "why_good": "Google's own illustration of a search ad: the 'Ad' label, the business name, one line of text, a phone icon. Exact words on the page: 'Search ads work by targeting people who are actively searching online for your products and services.'",
+    "use_on_slide": "Three platforms, three jobs (Google card) if a cleaner image than the Transparency Centre capture is wanted."
+  },
+  {
+    "id": "x04-linkedin-sponsored-content-page",
+    "name": "LinkedIn Ads, Sponsored Content page",
+    "type": "Official platform page",
+    "url": "https://business.linkedin.com/marketing-solutions/native-advertising",
+    "screenshot": "assets/img/s04/linkedin-sponsored-content-page.png (also assets/img/s04/linkedin-ads-page.png)",
+    "verified_live": "2026-10-16, public, no login",
+    "why_good": "LinkedIn's own description of its main ad type: 'Reach and engage a professional audience in the LinkedIn feed.' The ads overview page states 'Target your audience by job title, function, industry, and more.' and 'Over 1 billion active professionals are on LinkedIn.' These are the words to quote for the LinkedIn card.",
+    "use_on_slide": "Three platforms, three jobs (LinkedIn card). The page shows an illustration, not a real ad, so pair it with a mockup of a sponsored post in LinkedIn's style, labelled illustrative."
+  }
+]

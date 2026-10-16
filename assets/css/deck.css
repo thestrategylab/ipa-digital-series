@@ -1,0 +1,309 @@
+/* ==========================================================================
+   IPA Digital Knowledge Series: deck.css
+   The slide engine's styles. A deck is a 1920x1080 stage scaled to the
+   window. Type sizes are in px against that stage so that "body never under
+   24px" is a fixed guarantee. Requires base.css first.
+   ========================================================================== */
+
+:root {
+  --stage-w: 1920px;
+  --stage-h: 1080px;
+  --slide-pad-x: 150px;
+  --slide-pad-top: 110px;
+  --slide-pad-bottom: 150px;
+
+  /* Deck type scale (px on the 1920 stage) */
+  --d-display: 112px;
+  --d-h1: 88px;
+  --d-h2: 68px;
+  --d-h3: 44px;
+  --d-lede: 38px;
+  --d-body: 30px;
+  --d-small: 26px;
+  --d-caption: 24px;
+  --d-chrome: 22px;
+}
+
+html, body { height: 100%; }
+body.deck-body {
+  margin: 0; overflow: hidden; background: var(--paper);
+  font-size: var(--d-body); line-height: 1.45;
+}
+
+/* --------------------------------------------------------------------------
+   Stage and slides
+   -------------------------------------------------------------------------- */
+.deck { position: fixed; inset: 0; overflow: hidden; }
+.stage {
+  position: absolute; top: 50%; left: 50%;
+  width: var(--stage-w); height: var(--stage-h);
+  transform: translate(-50%, -50%) scale(var(--stage-scale, 1));
+  transform-origin: center center;
+  background: var(--paper);
+}
+.slide {
+  position: absolute; inset: 0; width: var(--stage-w); height: var(--stage-h);
+  background: var(--paper); color: var(--ink);
+  visibility: hidden; opacity: 0;
+  padding: var(--slide-pad-top) var(--slide-pad-x) var(--slide-pad-bottom);
+  display: flex; flex-direction: column;
+}
+.slide.is-active { visibility: visible; opacity: 1; z-index: 2; }
+.slide.is-leaving { visibility: visible; z-index: 1; }
+.slide--white { background: var(--white); }
+.slide--paper { background: var(--paper); }
+
+/* --------------------------------------------------------------------------
+   Slide chrome (injected by deck.js into every slide)
+   -------------------------------------------------------------------------- */
+.slide__chrome { position: absolute; inset: 0; pointer-events: none; }
+.slide__footer {
+  position: absolute; left: var(--slide-pad-x); bottom: 54px;
+  display: flex; align-items: center; gap: 28px;
+}
+.slide__footer img { height: 44px; width: auto; }
+.slide__footer .slide__footer-sep { width: 1px; height: 40px; background: var(--line-strong); }
+.slide__footer-text { font-size: var(--d-chrome); color: var(--grey); font-weight: 500; letter-spacing: 0.01em; }
+.slide__count {
+  position: absolute; right: var(--slide-pad-x); bottom: 58px;
+  font-size: var(--d-chrome); color: var(--grey); font-variant-numeric: tabular-nums; font-weight: 500;
+}
+.slide__count b { color: var(--brown); font-weight: 600; }
+.slide__layer {
+  position: absolute; right: var(--slide-pad-x); top: 56px;
+  font-size: var(--d-caption);
+}
+.slide__layer .chip { font-size: 1em; padding: 0.45em 1em; }
+
+/* progress line: the one thin rule across the bottom of the stage */
+.deck__progress { position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: rgba(84, 69, 62, 0.1); z-index: 20; }
+.deck__progress-bar { height: 100%; width: 0; background: var(--brown); transform-origin: left; transition: width var(--t-base) var(--ease-out); }
+
+/* --------------------------------------------------------------------------
+   Slide layout primitives
+   -------------------------------------------------------------------------- */
+.slide__head { flex: none; margin-bottom: 56px; }
+.slide__title { font-size: var(--d-h2); line-height: 1.08; letter-spacing: -0.02em; color: var(--brown); max-width: 34ch; }
+.slide__title--xl { font-size: var(--d-h1); max-width: 18ch; }
+.slide__lede { font-size: var(--d-lede); line-height: 1.35; color: var(--brown); margin-top: 24px; max-width: 32ch; font-weight: 400; }
+.slide__body { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: flex-start; }
+.slide__body--center { justify-content: center; }
+.slide__body--end { justify-content: flex-end; }
+.slide__body > * + * { margin-top: 32px; }
+.slide p:not([class], .plat *), .slide li:not([class], .plat *) { font-size: var(--d-body); }
+.slide .list li, .slide .wdw__col li, .slide .wdw__questions li { font-size: var(--d-body); }
+.slide h3 { font-size: var(--d-h3); line-height: 1.15; }
+.slide .caption, .slide .source, .slide .shot__caption, .slide .two-up__label, .slide .mock__tag { font-size: var(--d-caption); }
+.slide .chip { font-size: var(--d-caption); }
+.slide .callout { font-size: var(--d-body); }
+.slide .callout__title { font-size: var(--d-small); }
+.slide .wdw { font-size: var(--d-body); }
+.slide .wdw__role { font-size: var(--d-h3); font-size: 34px; }
+.slide .poll { font-size: var(--d-body); }
+.slide .poll__q { font-size: 40px; }
+.slide .poll__figure { font-size: 120px; }
+.slide .poll__claim { font-size: var(--d-body); }
+.slide .kbd { font-size: var(--d-small); }
+
+/* Column helpers */
+.cols { display: grid; gap: 64px; align-items: start; }
+.cols--2 { grid-template-columns: 1fr 1fr; }
+.cols--3 { grid-template-columns: 1fr 1fr 1fr; }
+.cols--2-1 { grid-template-columns: 2fr 1fr; }
+.cols--1-2 { grid-template-columns: 1fr 2fr; }
+.cols--3-2 { grid-template-columns: 3fr 2fr; }
+.cols--center { align-items: center; }
+.cols > * { min-width: 0; }
+
+/* Platform shells inside slides: shells are em based, so set their scale here */
+.slide .plat { font-size: 26px; box-shadow: var(--shadow-1); }
+.slide .plat--lg { font-size: 30px; }
+.slide .plat--sm { font-size: 22px; }
+.slide .phone { font-size: 22px; max-width: 330px; }
+.slide .phone .plat { font-size: 17px; box-shadow: none; }
+.slide .two-up .plat { font-size: 21px; }
+.slide .ba { font-size: 26px; }
+.slide .ba .plat { font-size: 24px; box-shadow: none; border: 0; border-radius: 0; height: 100%; }
+.slide .logo-tile { font-size: 30px; }
+
+/* Speaker notes never show in the deck view */
+.slide aside.notes { display: none !important; }
+
+/* The map inside a slide */
+.slide .map { font-size: 26px; }
+.slide .map__n { font-size: 2.9em; margin-top: 0.55em; }
+.slide .map__name { margin-top: 0.2em; }
+.slide .map__btn { padding-bottom: 0.8em; }
+.slide .map__detail-inner { padding: 1em 1.4em; gap: 1em 2em; }
+.slide .map .logo-tile { font-size: 22px; }
+.slide .wdw__questions h3 { font-size: 30px; }
+.slide .map__session, .slide .map__platform, .slide .map__meaning { font-size: 24px; }
+.slide .map__platforms--inline .map__platform { font-size: 24px; }
+.slide .map__platforms--inline .logo-tile { font-size: 20px; }
+.slide .map--lg { font-size: 32px; }
+
+/* Big statement slides */
+.statement { font-size: 60px; line-height: 1.2; color: var(--brown); font-weight: 600; max-width: 24ch; letter-spacing: -0.015em; }
+.statement--xl { font-size: 76px; line-height: 1.12; }
+.bignum { font-size: 220px; line-height: 0.95; font-weight: 700; letter-spacing: -0.04em; color: var(--brown); font-variant-numeric: tabular-nums; }
+.bignum--md { font-size: 150px; }
+
+/* Lists in slides */
+.slide ul.list, .slide ol.list { display: grid; gap: 18px; padding-left: 0; list-style: none; }
+.slide .list li { position: relative; padding-left: 44px; line-height: 1.4; }
+.slide ul.list li::before { content: ''; position: absolute; left: 6px; top: 0.6em; width: 12px; height: 12px; border-radius: 50%; background: var(--brown); }
+.slide ol.list { counter-reset: n; }
+.slide ol.list li { counter-increment: n; padding-left: 64px; }
+.slide ol.list li::before { content: counter(n); position: absolute; left: 0; top: 0; font-weight: 700; color: var(--brown); font-variant-numeric: tabular-nums; }
+.slide .list--big li { font-size: var(--d-lede); }
+
+/* Step list for journeys (large numeral, text) */
+.steps { display: grid; gap: 28px; }
+.step { display: grid; grid-template-columns: 96px 1fr; gap: 24px; align-items: start; }
+.step__n { font-size: 64px; font-weight: 300; line-height: 1; color: var(--brown); font-variant-numeric: tabular-nums; }
+.step__t { font-size: var(--d-body); line-height: 1.4; }
+.step__t b { color: var(--brown); font-weight: 600; }
+
+/* Title slide */
+.slide--title { padding-top: 0; justify-content: center; }
+.slide--title .title__series { font-size: var(--d-small); font-weight: 600; color: var(--grey); letter-spacing: 0.04em; margin-bottom: 40px; }
+.slide--title .title__h { font-size: var(--d-display); line-height: 1.02; letter-spacing: -0.03em; color: var(--brown); max-width: 16ch; }
+.slide--title .title__sub { font-size: var(--d-lede); color: var(--ink); margin-top: 40px; max-width: 34ch; line-height: 1.35; }
+.slide--title .title__by { font-size: var(--d-small); color: var(--grey); margin-top: 56px; }
+
+/* Closing slide */
+.slide--closing .slide__body { justify-content: center; }
+.closing__h { font-size: var(--d-h1); color: var(--brown); letter-spacing: -0.025em; max-width: 18ch; line-height: 1.05; }
+.closing__next { margin-top: 48px; font-size: var(--d-lede); color: var(--ink); }
+.closing__next b { color: var(--brown); font-weight: 600; }
+.closing__contact { margin-top: 64px; font-size: var(--d-body); color: var(--brown); display: grid; gap: 8px; }
+.closing__contact a { color: var(--brown); }
+
+/* Section divider slide */
+.slide--section .slide__body { justify-content: center; }
+.section__n { font-size: 140px; font-weight: 300; line-height: 1; color: var(--brown); letter-spacing: -0.03em; }
+.section__h { font-size: var(--d-h1); color: var(--brown); margin-top: 24px; }
+
+/* --------------------------------------------------------------------------
+   Reveals
+   Anything with data-reveal is hidden until stepped. deck.js animates with
+   GSAP when present; the class is the source of truth so it works without.
+   -------------------------------------------------------------------------- */
+.deck-body [data-reveal] { visibility: hidden; opacity: 0; }
+.deck-body [data-reveal].is-revealed { visibility: visible; opacity: 1; }
+.deck-body.deck--print [data-reveal], .deck-body.deck--overview [data-reveal], .deck-body.deck--notes [data-reveal] { visibility: visible; opacity: 1; transform: none !important; }
+
+/* --------------------------------------------------------------------------
+   Help overlay
+   -------------------------------------------------------------------------- */
+.deck__help {
+  position: fixed; inset: 0; z-index: 60; display: none; place-items: center; background: rgba(26, 26, 26, 0.55); padding: 24px;
+}
+.deck__help.is-open { display: grid; }
+.deck__help-card { background: var(--white); border-radius: var(--r-lg); padding: 36px 44px; max-width: 640px; width: 100%; box-shadow: var(--shadow-2); font-size: 18px; }
+.deck__help-card h2 { font-size: 24px; margin-bottom: 18px; }
+.deck__help-card dl { display: grid; grid-template-columns: auto 1fr; gap: 10px 20px; align-items: center; margin: 0; }
+.deck__help-card dt { display: flex; gap: 6px; }
+.deck__help-card dd { margin: 0; color: var(--ink); }
+.deck__help-card .deck__help-close { margin-top: 24px; }
+
+/* --------------------------------------------------------------------------
+   Overview grid (Esc)
+   -------------------------------------------------------------------------- */
+.deck-body.deck--overview { overflow: auto; }
+.deck--overview .deck { position: static; overflow: visible; min-height: 100%; padding: 48px; }
+.deck--overview .stage {
+  position: static; transform: none; width: auto; height: auto; background: transparent;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 40px 28px;
+}
+.deck--overview .slide {
+  position: relative; inset: auto; visibility: visible; opacity: 1; z-index: auto;
+  zoom: 0.19; cursor: pointer; outline: 6px solid transparent; outline-offset: 10px; border-radius: 8px;
+  box-shadow: 0 10px 40px -10px rgba(84, 69, 62, 0.35);
+  transition: outline-color var(--t-fast);
+}
+.deck--overview .slide.is-active { outline-color: var(--brown); }
+.deck--overview .slide:hover { outline-color: var(--grey-2); }
+.deck--overview .deck__progress { display: none; }
+.deck--overview .slide__ov-label {
+  display: block; position: absolute; left: 0; top: calc(100% + 60px); font-size: 68px; font-weight: 600; color: var(--grey); pointer-events: none;
+}
+.slide__ov-label { display: none; }
+
+/* --------------------------------------------------------------------------
+   Print and the P key (stacked slides)
+   -------------------------------------------------------------------------- */
+.deck-body.deck--print { overflow: auto; background: #E9E5E1; }
+.deck--print .deck { position: static; overflow: visible; padding: 32px 0; }
+.deck--print .stage {
+  position: static; transform: none; width: auto; height: auto; background: transparent;
+  display: grid; gap: 32px; justify-items: center;
+}
+.deck--print .slide { position: relative; inset: auto; visibility: visible; opacity: 1; z-index: auto; zoom: var(--print-zoom, 0.6); box-shadow: 0 8px 30px -10px rgba(0, 0, 0, 0.3); }
+.deck--print .deck__progress, .deck--print .deck__help { display: none; }
+
+@media print {
+  @page { size: 13.333in 7.5in; margin: 0; }
+  html, body { height: auto !important; overflow: visible !important; background: var(--white) !important; }
+  .deck { position: static !important; overflow: visible !important; padding: 0 !important; }
+  .stage { position: static !important; transform: none !important; width: auto !important; height: auto !important; display: block !important; background: transparent !important; }
+  .slide {
+    position: relative !important; inset: auto !important; visibility: visible !important; opacity: 1 !important;
+    zoom: 0.6667 !important; box-shadow: none !important; page-break-after: always; break-after: page; outline: 0 !important;
+  }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  .deck__progress, .deck__help, .slide__ov-label { display: none !important; }
+  [data-reveal] { visibility: visible !important; opacity: 1 !important; transform: none !important; }
+  .slide__chrome { display: block !important; }
+}
+
+/* --------------------------------------------------------------------------
+   Notes view (index.html?notes, which notes.html redirects to)
+   Readable on a phone. deck.js builds this from the slides' <aside class="notes">.
+   -------------------------------------------------------------------------- */
+.deck-body.deck--notes { overflow: auto; font-size: 17px; line-height: 1.55; background: var(--paper); }
+.deck--notes .deck, .deck--notes .deck__progress { display: none; }
+.notes-view { max-width: 760px; margin: 0 auto; padding: 24px 16px 80px; }
+.notes-view__head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; padding: 8px 0 20px; border-bottom: 1px solid var(--line-strong); margin-bottom: 8px; }
+.notes-view__head h1 { font-size: 22px; line-height: 1.2; }
+.notes-view__head p { color: var(--grey); font-size: 14px; margin-top: 4px; }
+.notes-view__tools { display: flex; gap: 8px; flex-wrap: wrap; }
+.notes-view__tools .btn { font-size: 14px; }
+.notes-view__toc { display: grid; gap: 2px; padding: 12px 0 20px; border-bottom: 1px solid var(--line); margin-bottom: 8px; }
+.notes-view__toc a { display: grid; grid-template-columns: 2.4em 1fr auto; gap: 10px; padding: 6px 4px; font-size: 15px; text-decoration: none; color: var(--ink); border-radius: 6px; }
+.notes-view__toc a:hover { background: var(--white); }
+.notes-view__toc a b { color: var(--brown); font-variant-numeric: tabular-nums; }
+.notes-view__toc a span:last-child { color: var(--grey); font-size: 13px; }
+.note { padding: 22px 0 26px; border-bottom: 1px solid var(--line); scroll-margin-top: 16px; }
+.note.is-current { background: var(--white); margin: 0 -16px; padding-left: 16px; padding-right: 16px; border-left: 3px solid var(--brown); }
+.note__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-bottom: 8px; font-size: 13px; color: var(--grey); font-weight: 600; letter-spacing: 0.02em; }
+.note__meta .note__n { color: var(--brown); font-size: 15px; }
+.note__meta .chip { font-size: 12px; }
+.note__title { font-size: 20px; line-height: 1.25; margin-bottom: 10px; }
+.note__cue { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; padding: 10px 12px; margin: 8px 0; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--white); font-size: 15px; }
+.note__cue b { color: var(--brown); white-space: nowrap; }
+.note__cue--poll { border-color: var(--brown); }
+.note__body { font-size: 17px; }
+.note__body p { margin: 0 0 10px; }
+.note__body p:last-child { margin-bottom: 0; }
+.note__body ul, .note__body ol { padding-left: 22px; margin: 0 0 10px; display: grid; gap: 4px; }
+.note__body strong { color: var(--brown); }
+.note__body .empty { color: var(--grey); font-style: italic; }
+.note__body .cue { display: inline-block; padding: 2px 8px; border-radius: 6px; background: var(--white); border: 1px solid var(--line-strong); color: var(--brown); font-weight: 600; font-size: 0.9em; }
+.notes-view__foot { padding-top: 24px; font-size: 13px; color: var(--grey); }
+
+/* --------------------------------------------------------------------------
+   Deck-only utilities
+   -------------------------------------------------------------------------- */
+.mt-0 { margin-top: 0 !important; }
+.mt-16 { margin-top: 16px !important; }
+.mt-32 { margin-top: 32px !important; }
+.mt-48 { margin-top: 48px !important; }
+.mt-64 { margin-top: 64px !important; }
+.w-60 { width: 60%; }
+.w-70 { width: 70%; }
+.w-80 { width: 80%; }
+.center { text-align: center; }
+.stack-8 > * + * { margin-top: 8px; }
+.stack-16 > * + * { margin-top: 16px; }
+.stack-24 > * + * { margin-top: 24px; }

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "e05-ipa-news-monthly",
+    "name": "Indian Plumbing Association: IPA News, monthly issues",
+    "url": "https://www.indianplumbing.org/event-activities/ipa-news/",
+    "type": "Association monthly update (real example for the chapter segment)",
+    "why_good": "IPA already publishes a monthly IPA News issue and lists every issue in a plain archive. It is the model for 'keep members engaged between events with a short monthly update': regular, short, findable later. Use it to show chapters that the format exists and they can contribute one member spotlight a month.",
+    "screenshot": "assets/img/s05/ipa-news-monthly-issues.png",
+    "status": "live, HTTP 200 on 2026-10-16"
+  },
+  {
+    "id": "e05-ipa-pune-chapter",
+    "name": "Indian Plumbing Association: Pune Chapter page",
+    "url": "https://www.indianplumbing.org/chapters/national-chapters/pune/",
+    "type": "Chapter page with office contact and member list (real example, matches Sharma's city)",
+    "why_good": "Shows a chapter with a formation year, a named office address and email, and a member list link. Pairs with Sharma Plumbing Works being in Pune. Use as the 'where a chapter update would be linked from' example.",
+    "screenshot": "assets/img/s05/ipa-pune-chapter-page.png",
+    "status": "live, HTTP 200 on 2026-10-16"
+  },
+  {
+    "id": "e05-kent-amc",
+    "name": "KENT RO Systems: KENT AMC, Annual Maintenance Contract",
+    "url": "https://www.kent.co.in/pages/customer-service-amc",
+    "type": "Indian manufacturer running a paid annual service plan (real example for 'reminders that bring work back')",
+    "why_good": "A large Indian water-appliance brand sells the repeat visit as a product: a yearly contract, clear cover (electrical and mechanical parts), clear exclusions (consumables), a renewal rule (renew within a month of expiry) and a service number. It is the manufacturer-scale version of what a plumbing contractor can do with a simple sheet and WhatsApp.",
+    "screenshot": "assets/img/s05/kent-amc-page.png",
+    "status": "live, HTTP 200 on 2026-10-16"
+  },
+  {
+    "id": "e05-kirloskar-amc",
+    "name": "Kirloskar Brothers Limited: Services, Installation/Inspection and Annual Maintenance Contract",
+    "url": "https://eshop.kirloskarpumps.com/services-home",
+    "type": "Indian pump manufacturer offering AMC booking online (real example, relevant to pump servicing reminders)",
+    "why_good": "A pump maker, directly relevant to plumbing contractors, lists only two services: installation or inspection, and an annual maintenance contract. Shows that pump servicing is a recognised recurring product. Clean page, easy to read on a slide.",
+    "screenshot": "assets/img/s05/kirloskar-pumps-amc-services.png",
+    "status": "live, HTTP 200 on 2026-10-16"
+  },
+  {
+    "id": "e05-residenso-pune",
+    "name": "Residenso Solutions LLP, Pune: Society maintenance, Plumbing",
+    "url": "https://www.residenso.com/plumbing.php",
+    "type": "Pune housing-society maintenance firm (real example for the 12-month calendar and the customer list)",
+    "why_good": "A Pune firm that sells plumbing, tank cleaning and drainage cleaning to housing societies as scheduled services, with a visible address, phone and email, and social links. Shows the real market Sharma serves and the services that naturally recur (tank cleaning, drainage cleaning before monsoon).",
+    "screenshot": "assets/img/s05/residenso-pune-society-maintenance.png",
+    "status": "live, HTTP 200 on 2026-10-16"
+  },
+  {
+    "id": "e05-synergy-pune-amc",
+    "name": "Synergy Repairs and Maintenance, Pune: AMC service provider page",
+    "url": "https://synergyrm.in/amc-service-provider-in-pune/",
+    "type": "Small Pune repair firm selling an AMC with a fixed yearly schedule (optional secondary example)",
+    "why_good": "Plain-language pitch: 'Annual maintenance contracts that keep plumbing, electrical and civil upkeep on a fixed yearly schedule, instead of a call only when something breaks.' That line is the whole session in one sentence. The page uses a cartoon mascot, so prefer quoting the line over showing the full screenshot; if shown, crop to the yellow header band.",
+    "screenshot": "assets/img/s05/synergy-pune-amc-page.png",
+    "status": "live, HTTP 200 on 2026-10-16"
+  },
+  {
+    "id": "e05-google-tips-reviews",
+    "name": "Google Business Profile Help: Tips to get more reviews",
+    "url": "https://support.google.com/business/answer/3474122?hl=en",
+    "type": "Official platform guidance for the 'moment to ask' slide",
+    "why_good": "Google's own rules for asking: remind customers with a Google link or QR code, reply to every review, never offer incentives for reviews (it is prohibited). Use it to anchor the review-request message and to warn against paying for reviews.",
+    "screenshot": "assets/img/s05/google-help-tips-more-reviews.png",
+    "status": "live, HTTP 200 on 2026-10-16"
+  },
+  {
+    "id": "e05-google-manage-reviews",
+    "name": "Google Business Profile Help: Manage customer reviews",
+    "url": "https://support.google.com/business/answer/3474050?hl=en",
+    "type": "Official platform guidance on replying to reviews",
+    "why_good": "States that a verified business can reply to reviews and that the reviewer is notified. Supports the 'reply to every review' point in the referrals and reviews segment.",
+    "screenshot": "assets/img/s05/google-help-manage-reviews.png",
+    "status": "live, HTTP 200 on 2026-10-16"
+  },
+  {
+    "id": "e05-whatsapp-broadcast-help",
+    "name": "WhatsApp Help Center: How to use broadcast lists",
+    "url": "https://faq.whatsapp.com/861663048350950/",
+    "type": "Official platform page for the broadcast list segment",
+    "why_good": "Explains the two facts the audience needs: recipients must have saved your number, and lists hold up to 256 contacts. Also notes monthly broadcast limits in some countries. Use it to explain why 'saved contacts who asked to hear from you' is the only list worth having.",
+    "screenshot": "assets/img/s05/whatsapp-faq-broadcast-lists.png",
+    "status": "live in a browser on 2026-10-16; returns HTTP 400 to curl HEAD and GET (bot block), so the link reviewer should open it in a browser"
+  },
+  {
+    "id": "e05-whatsapp-business-app",
+    "name": "WhatsApp Business app product page",
+    "url": "https://business.whatsapp.com/products/business-app",
+    "type": "Official product page (reference for the WhatsApp-style mockups)",
+    "why_good": "Official description of the free WhatsApp Business app for small business owners. Reference for the mockup style and for naming features correctly.",
+    "screenshot": "assets/img/s05/whatsapp-business-app-page.png",
+    "status": "live in a browser on 2026-10-16; returns HTTP 400 to curl (bot block). Screenshot has a cookie banner across the bottom 80 px; crop it if used."
+  }
+]

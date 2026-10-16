@@ -1,0 +1,205 @@
+{
+  "_about": "Images and logos downloaded by the foundation agent for shared assets. Builders record their own session images in data/credits.json using the same fields.",
+  "images": [
+    {
+      "file": "assets/img/logos/google-g.svg",
+      "subject": "Google 'G' logo",
+      "source": "Wikimedia Commons, File:Google \"G\" logo.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
+      "licence": "Public domain (simple geometry); Google trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js", "sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/logos/google-maps.svg",
+      "subject": "Google Maps icon (2020)",
+      "source": "Wikimedia Commons, File:Google Maps icon (2020).svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg",
+      "licence": "Public domain (simple geometry); Google trademark, used to identify the platform only",
+      "used_in": ["sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/logos/google-business-profile.png",
+      "subject": "Google Business Profile product icon (served by Google as google_my_business_512dp.png)",
+      "source": "Google product branding CDN (gstatic.com)",
+      "url": "https://www.gstatic.com/images/branding/product/1x/google_my_business_512dp.png",
+      "licence": "Google trademark; official product icon used unaltered to identify the product",
+      "used_in": ["assets/js/map.js"]
+    },
+    {
+      "file": "assets/img/logos/wordpress.svg",
+      "subject": "WordPress logo (blue)",
+      "source": "Wikimedia Commons, File:WordPress blue logo.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg",
+      "licence": "GPL (WordPress Foundation logo); WordPress trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js"]
+    },
+    {
+      "file": "assets/img/logos/shopify.svg",
+      "subject": "Shopify logo (2018)",
+      "source": "Wikimedia Commons, File:Shopify logo 2018.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg",
+      "licence": "Public domain (simple geometry); Shopify trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js"]
+    },
+    {
+      "file": "assets/img/logos/whatsapp.svg",
+      "subject": "WhatsApp logo",
+      "source": "Wikimedia Commons, File:WhatsApp.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+      "licence": "Public domain (simple geometry); Meta trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js", "sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/logos/linkedin.svg",
+      "subject": "LinkedIn icon",
+      "source": "Wikimedia Commons, File:LinkedIn icon.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg",
+      "licence": "Public domain (simple geometry); LinkedIn trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js"]
+    },
+    {
+      "file": "assets/img/logos/instagram.svg",
+      "subject": "Instagram glyph logo (2016)",
+      "source": "Wikimedia Commons, File:Instagram logo 2016.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
+      "licence": "Public domain (simple geometry); Meta trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js"]
+    },
+    {
+      "file": "assets/img/logos/youtube.svg",
+      "subject": "YouTube full-colour icon (2017)",
+      "source": "Wikimedia Commons, File:YouTube full-color icon (2017).svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+      "licence": "Public domain (simple geometry); Google trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js"]
+    },
+    {
+      "file": "assets/img/logos/pinterest.svg",
+      "subject": "Pinterest icon",
+      "source": "Wikimedia Commons, File:Pinterest.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pinterest.svg",
+      "licence": "CC BY-SA 4.0 (Commons upload); Pinterest trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js"]
+    },
+    {
+      "file": "assets/img/logos/meta.svg",
+      "subject": "Meta Platforms logo mark (cropped)",
+      "source": "Wikimedia Commons, File:Meta Platforms Inc. logo (cropped).svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Meta_Platforms_Inc._logo_%28cropped%29.svg",
+      "licence": "Public domain (simple geometry); Meta trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js"]
+    },
+    {
+      "file": "assets/img/logos/google-ads.svg",
+      "subject": "Google Ads logo",
+      "source": "Wikimedia Commons, File:Google Ads logo.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Ads_logo.svg",
+      "licence": "Public domain (simple geometry); Google trademark, used to identify the platform only",
+      "used_in": ["assets/js/map.js"]
+    },
+    {
+      "file": "assets/img/logos/gmail.svg",
+      "subject": "Gmail icon (2020)",
+      "source": "Wikimedia Commons, File:Gmail icon (2020).svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg",
+      "licence": "Public domain (simple geometry); Google trademark, used to identify the product only",
+      "used_in": []
+    },
+    {
+      "file": "assets/img/sharma/logo.svg",
+      "subject": "Sharma Plumbing Works wordmark (fictional business, drawn for this series)",
+      "source": "The Strategy Lab, built from Montserrat (SIL Open Font Licence) outlines",
+      "url": "https://github.com/google/fonts/tree/main/ofl/montserrat",
+      "licence": "Created for this series; Montserrat under the SIL Open Font Licence 1.1",
+      "used_in": ["assets/css/base.css", "sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/sharma/photos/work-01.jpg",
+      "subject": "Plumber's hands installing steel pipes",
+      "photographer": "Anil Karakaya",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/photo/plumber-installs-pipe-fittings-6419128/",
+      "licence": "Pexels licence (free to use)",
+      "used_in": ["sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/sharma/photos/work-02.jpg",
+      "subject": "Plumber bending copper pipe in a workshop",
+      "photographer": "Yudi Ding",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/photo/close-up-of-plumber-working-with-copper-pipe-39885416/",
+      "licence": "Pexels licence (free to use)",
+      "used_in": ["sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/sharma/photos/work-03.jpg",
+      "subject": "Plumber installing a radiator pipe",
+      "photographer": "Sejio402",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/photo/professional-plumber-installing-a-radiator-pipe-29226620/",
+      "licence": "Pexels licence (free to use)",
+      "used_in": ["sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/sharma/photos/work-04.jpg",
+      "subject": "Exposed pipes on a construction site wall",
+      "photographer": "Kindel Media",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/photo/metal-pipes-on-wall-8488035/",
+      "licence": "Pexels licence (free to use)",
+      "used_in": []
+    },
+    {
+      "file": "assets/img/sharma/photos/work-05.jpg",
+      "subject": "Pipe installation at a construction site",
+      "photographer": "Sejio402",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/photo/urban-pipework-construction-site-close-up-29274530/",
+      "licence": "Pexels licence (free to use)",
+      "used_in": ["sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/sharma/photos/work-06.jpg",
+      "subject": "Gloved hands assembling a water pipe",
+      "photographer": "Taha Kose",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/photo/close-up-of-hands-of-a-construction-worker-14598653/",
+      "licence": "Pexels licence (free to use)",
+      "used_in": ["sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/sharma/photos/work-07.jpg",
+      "subject": "Steel pipes with a pressure gauge",
+      "photographer": "Pavel Danilyuk",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/photo/steel-pipes-with-pressure-gauge-7937300/",
+      "licence": "Pexels licence (free to use)",
+      "used_in": ["sessions/00-template/index.html"]
+    },
+    {
+      "file": "assets/img/sharma/photos/work-08.jpg",
+      "subject": "Water pressure gauges and pipes",
+      "photographer": "Ian Panelo",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/photo/close-up-of-water-meter-4494655/",
+      "licence": "Pexels licence (free to use)",
+      "used_in": []
+    },
+    {
+      "file": "assets/brand/tsl-mark.png",
+      "subject": "The Strategy Lab mark, trimmed copy of assets/brand/tsl-logo.png for footers",
+      "source": "The Strategy Lab brand kit",
+      "url": "https://thestrategylab.in",
+      "licence": "Owned by The Strategy Lab",
+      "used_in": ["assets/js/deck.js", "index.html"]
+    },
+    {
+      "file": "assets/brand/ipa-logo.png",
+      "subject": "Indian Plumbing Association logo",
+      "source": "Supplied by IPA for this series",
+      "url": "https://indianplumbing.org",
+      "licence": "Owned by the Indian Plumbing Association, used with permission for this series",
+      "used_in": ["assets/js/deck.js", "index.html"]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "session": "02",
+  "fetched_on": "2026-10-16",
+  "sources": [
+    {
+      "id": "s02-01",
+      "figure": "76%",
+      "claim_as_shown": "76 out of 100 people who search on their phone for something nearby visit a business within a day.",
+      "publisher": "Google (Think with Google)",
+      "title": "How Mobile Search Connects Consumers to Stores",
+      "year": "2016",
+      "url": "https://www.thinkwithgoogle.com/_qs/documents/620/mobile-search-trends-consumers-to-stores.pdf",
+      "fetched_on": "2026-10-16",
+      "notes": "One-page Google PDF, downloaded and read in full. Exact text: '76% of people who search on their smartphones for something nearby visit a business within a day' and '28% of those searches for something nearby result in a purchase'. Footnote 7: 'Google/Purchased Digital Diary: How Consumers Solve Their Needs in the Moment, May 2016. Smartphone users = 1000, local searchers = 634, purchases = 1,140.' US study. No Indian equivalent found on a page we could open, so the slide must say 'US study, 2016'. The old Think with Google article page for this figure now redirects to business.google.com/in/think, so cite the PDF only."
+    },
+    {
+      "id": "s02-02",
+      "figure": "2.7 times",
+      "claim_as_shown": "Customers are 2.7 times more likely to consider a business reputable if they find a complete Business Profile on Google Search and Maps.",
+      "publisher": "Google (Google Business Profile Help)",
+      "title": "Complete your Business Profile on Google",
+      "year": "undated help page, read 2026",
+      "url": "https://support.google.com/business/answer/10515606?hl=en",
+      "fetched_on": "2026-10-16",
+      "notes": "Opened and read. Exact text: 'Customers are 2.7 times more likely to consider a business reputable if they find a complete Business Profile on Google Search and Maps. Customers are 70% more likely to visit and 50% more likely to consider purchasing from businesses with a complete Business Profile.' Google gives no year or study name on the page; show it as 'Google Business Profile Help, page read 2026'. Page returns 404 to a HEAD request but 200 to GET, so the link checker should use GET. The same page lists what a complete profile needs: services, photos and videos, description, opening date, business hours, reviews link, attributes. Use that list for the interactive checklist."
+    },
+    {
+      "id": "s02-03",
+      "figure": "70% and 50%",
+      "claim_as_shown": "Customers are 70% more likely to visit, and 50% more likely to consider buying from, a business with a complete Google profile.",
+      "publisher": "Google (Google Business Profile Help)",
+      "title": "Complete your Business Profile on Google",
+      "year": "undated help page, read 2026",
+      "url": "https://support.google.com/business/answer/10515606?hl=en",
+      "fetched_on": "2026-10-16",
+      "notes": "Same page and sentence as s02-02. Google's own claim, no independent study named."
+    },
+    {
+      "id": "s02-04",
+      "figure": "9 billion a month",
+      "claim_as_shown": "Every month Google connects people to nearby businesses more than 9 billion times, including over 1 billion phone calls and 3 billion requests for directions.",
+      "publisher": "Google (The Keyword blog)",
+      "title": "Say hello to the new Google My Business app, and say hello to your next customer",
+      "year": "2018",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/small-business/new-google-my-business-app/",
+      "fetched_on": "2026-10-16",
+      "notes": "Opened and read. Post dated 14 November 2018 by Curtis Galloway, Engineering Manager, Google My Business. Exact text: 'Every month, Google connects people to businesses nearby more than 9 billion times, including over 1 billion phone calls and 3 billion direction requests to stores.' Global figure; say so on the slide."
+    },
+    {
+      "id": "s02-05",
+      "figure": "75%",
+      "claim_as_shown": "'Near me' searches in India grew 75% in a year.",
+      "publisher": "Google (Think with Google India)",
+      "title": "Year in Search, India: Insights for Brands",
+      "year": "2019 report, 2018 data",
+      "url": "https://www.thinkwithgoogle.com/_qs/documents/7677/Year_in_Search_report_India.pdf",
+      "fetched_on": "2026-10-16",
+      "notes": "97-page Google PDF, downloaded and read. Page 11: '75% YoY growth in \"near me\" queries'. Source line on that page: 'Google Internal Data, January - December, 2018'. PDF created May 2019. Indian figure. Same report, page 22: '400% growth for \"dealer near me\" searches' (Google Internal Data, January to November 2018), usable as a second Indian example if needed."
+    },
+    {
+      "id": "s02-06",
+      "figure": "68%",
+      "claim_as_shown": "68 out of 100 Indian small and medium businesses were completely offline, and only 2 in 100 actively sold or promoted online.",
+      "publisher": "KPMG in India and Google",
+      "title": "Impact of internet and digitisation on SMBs in India",
+      "year": "2017",
+      "url": "https://assets.kpmg.com/content/dam/kpmg/in/pdf/2017/01/Impact-of-internet-and-digitisation.pdf",
+      "fetched_on": "2026-10-16",
+      "notes": "29-page PDF, downloaded and read. Exact text: 'A staggering 68 per cent of Indian SMBs are completely offline, with only 2 per cent actively selling or promoting their business online.' Based on a Kantar IMRB telephone survey of 504 Indian SMBs in November 2016. Indian figure, but nine years old; label the year clearly. URL 301-redirects to assets.kpmg.com/content/dam/kpmgsites/in/pdf/2017/01/Impact-of-internet-and-digitisation.pdf, which returns 200."
+    },
+    {
+      "id": "s02-07",
+      "figure": "2 times",
+      "claim_as_shown": "Indian small businesses that use digital tools grow revenues and profits up to twice as fast as those that stay offline.",
+      "publisher": "KPMG in India and Google",
+      "title": "Impact of internet and digitisation on SMBs in India",
+      "year": "2017",
+      "url": "https://assets.kpmg.com/content/dam/kpmg/in/pdf/2017/01/Impact-of-internet-and-digitisation.pdf",
+      "fetched_on": "2026-10-16",
+      "notes": "Same PDF as s02-06. Page 15 heading: 'Digital SMBs grow revenues and profits up to twice as fast as Offline counterparts'. Summary page: 'Grow profits up to two times faster than Offline SMBs'. Say 'up to' on the slide."
+    },
+    {
+      "id": "s02-08",
+      "figure": "89%",
+      "claim_as_shown": "89 out of 100 consumers expect business owners to reply to reviews.",
+      "publisher": "BrightLocal",
+      "title": "Local Consumer Review Survey 2026",
+      "year": "2026",
+      "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "fetched_on": "2026-10-16",
+      "notes": "Opened and read. Survey of 1,002 US adult consumers via SurveyMonkey, published 11 February 2026. Page states '89% expect owners to respond' and '80% are likely to use a business that responds to all reviews'. US sample; no Indian equivalent found, so say 'US survey' on the slide."
+    },
+    {
+      "id": "s02-09",
+      "figure": "74%",
+      "claim_as_shown": "74 out of 100 consumers only pay attention to reviews written in the last three months.",
+      "publisher": "BrightLocal",
+      "title": "Local Consumer Review Survey 2026",
+      "year": "2026",
+      "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "fetched_on": "2026-10-16",
+      "notes": "Same page as s02-08. Page states '74% only care about reviews from the last three months' and '44% say the review must be from the last month'. This is the fact behind Sharma's 'two reviews from 2021' before state. US sample, 2026."
+    },
+    {
+      "id": "s02-10",
+      "figure": "47%",
+      "claim_as_shown": "47 out of 100 consumers will not use a business that has fewer than 20 reviews.",
+      "publisher": "BrightLocal",
+      "title": "Local Consumer Review Survey 2026",
+      "year": "2026",
+      "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "fetched_on": "2026-10-16",
+      "notes": "Same page as s02-08. Page states '47% won't use a business with fewer than 20 reviews'. Supports the Sharma after state of 40 reviews. US sample, 2026."
+    },
+    {
+      "id": "s02-11",
+      "figure": "200 million",
+      "claim_as_shown": "More than 200 million businesses a month use the WhatsApp Business app worldwide.",
+      "publisher": "Meta Platforms, Inc.",
+      "title": "Second Quarter 2023 Results Conference Call transcript",
+      "year": "2023",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2023/q2/META-Q2-2023-Earnings-Call-Transcript.pdf",
+      "fetched_on": "2026-10-16",
+      "notes": "19-page PDF from Meta's investor relations site, downloaded and read. Call dated 26 July 2023. Mark Zuckerberg: 'the 200 million users of our WhatsApp Business app will now be able to create Click-to-WhatsApp ads'. Susan Li: 'the WhatsApp Business App, which now has more than 200 million monthly users.' Global figure; Meta does not publish an India-only number for the app (see notes_unverified)."
+    }
+  ],
+  "recommended_use": {
+    "guess_the_number": "s02-01 (76% visit within a day). Poll: 'Of 100 people who search on their phone for something nearby, how many visit a business within a day?' Options 25 / 50 / 76 / 90. Reveal 76. Alternative if a less dated number is preferred: s02-02 (2.7 times), poll 'How many times more likely is a customer to see a business as reputable when its Google profile is complete?' Options 1.2 / 1.8 / 2.7 / 5.",
+    "midway_facts": "s02-02 and s02-03 on the Google profile standard slide; s02-04 on the 'home is Google, not the website' point; s02-05 and s02-06 as the Indian context pair; s02-08, s02-09, s02-10 on the Sharma before and after reviews slide; s02-11 on the WhatsApp Business slide."
+  },
+  "notes_unverified": [
+    "Share of clicks that go to the top three Google Maps results (the '44%' figure): widely repeated but every page traced it to a single small Neil Patel click study or to unnamed WebFX, BrightLocal or Backlinko data, with competing values of 30%, 42% and 44%. No primary page opened confirms it. Dropped; s02-01 is used for the guess-the-number instead.",
+    "WhatsApp Business app users in India ('more than 15 million', 2020): the WhatsApp blog post 'WhatsApp Business app now delivering for 50 million businesses' is rendered by JavaScript and returned only navigation text to WebFetch, curl and a headless Chrome DOM dump, so the figure could not be read on the page. Meta India has said publicly it does not break out the India number. Dropped.",
+    "India internet users 2025 (IAMAI-Kantar 'Internet in India 2025', about 958 million): only press coverage found; the IAMAI site still lists the 2024 PDF (886 million users in 2024). Not needed for this session; Session 1 owns this figure.",
+    "Think with Google India 'What is India searching for' (2020) near-me growth rows (pharmacy near me +58%, grocery delivery near me +550%, vet doctor near me +60%) were confirmed in the PDF but are COVID-period categories, so they were left out as not relevant to a plumbing audience.",
+    "Google India SMB counts (23 million SMBs reached, 2019; 26 million listings, 2017) exist only in press reports of executive quotes, not on a Google page. Dropped.",
+    "The old Think with Google article page for the 76% statistic (thinkwithgoogle.com/data/mobile-near-me-searches) now 301-redirects to business.google.com/in/think, so the PDF is cited instead."
+  ]
+}

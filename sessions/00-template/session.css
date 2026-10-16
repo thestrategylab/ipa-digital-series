@@ -1,0 +1,2 @@
+/* Session-local styles. Shared assets are never edited; anything a session
+   needs beyond base.css and deck.css lives here, scoped to this deck. */

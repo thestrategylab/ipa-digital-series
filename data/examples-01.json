@@ -1,0 +1,66 @@
+[
+  {
+    "id": "s01-ex-aquapulse-google-profile",
+    "name": "Aquapulse Plumbing and services, Bibwewadi, Pune (Google Business Profile)",
+    "url": "https://www.google.com/maps/search/Aquapulse+Plumbing+and+services+Bibwewadi+Pune",
+    "platform": "Google Business Profile / Google Maps",
+    "layer": "1. Home",
+    "verified_live_on": "2026-10-16",
+    "why_it_is_good": "A real Pune plumbing contractor whose Google profile has what a stranger needs: category (Plumber), 4.6 stars from 258 Google reviews, a one-line description ('Professional plumbing service specializing in leak detection and residential repairs'), a website link (aquapulseplumbing.in), phone, hours (open 24 hours), 'Areas served: Pune', 15+ years in business, and photos of real fittings. It appears in the top three Places results for 'plumbing contractors in Pune'.",
+    "screenshots": [
+      "assets/img/s01/google-maps-aquapulse-plumbing-pune.png",
+      "assets/img/s01/google-search-aquapulse-plumbing-pune.png",
+      "assets/img/s01/google-search-plumbing-contractors-pune.png"
+    ],
+    "use_on": ["journey step 2: reads reviews on a Maps listing", "Sharma 'which one would you call': the real, named side"]
+  },
+  {
+    "id": "s01-ex-aquapulse-website",
+    "name": "AquaPulse Plumbing website home page",
+    "url": "https://aquapulseplumbing.in/",
+    "platform": "Website",
+    "layer": "1. Home",
+    "verified_live_on": "2026-10-16",
+    "why_it_is_good": "Passes the five-second test above the fold: what they do (plumbing), where (Available 24/7 in Pune), proof (Licensed and Insured, 24/7 Emergency, 15+ Years Experience, a Testimonials link), and how to contact (Call Now and Book a Service buttons, a WhatsApp button bottom right). Belongs mainly to Session 2 but is ready if Session 1 wants a website example.",
+    "screenshots": ["assets/img/s01/website-aquapulseplumbing-home.png"],
+    "use_on": ["optional: map slide, Home layer expanded"]
+  },
+  {
+    "id": "s01-ex-pune-plumbing-services-google",
+    "name": "Pune Plumbing Services, Erandwane, Pune (Google listing)",
+    "url": "https://www.google.com/maps/search/Pune+Plumbing+Services+Continental+Chambers+Pune",
+    "platform": "Google Business Profile / Google Maps",
+    "layer": "1. Home",
+    "verified_live_on": "2026-10-16",
+    "why_it_is_good": "Ranks first in the Places results for 'plumbing contractors in Pune' with 4.9 stars from 135 Google reviews, '25+ years in business', hours, phone and a review snippet shown right in the search result ('Very good work and affordable'). Good as a second real name on the search-results slide; Aquapulse is the primary example because its profile also carries a website, description and service area.",
+    "screenshots": ["assets/img/s01/google-search-plumbing-contractors-pune.png"],
+    "use_on": ["journey step 1: searches Google (visible in the Places pack)"]
+  },
+  {
+    "id": "s01-ex-ashirvad-youtube",
+    "name": "Ashirvad by aliaxis, official YouTube channel, video 'Ashirvad CPVC Installation'",
+    "url": "https://www.youtube.com/watch?v=osOfTtlO0S8",
+    "channel_url": "https://www.youtube.com/@ashirvadpipesofficial",
+    "platform": "YouTube",
+    "layer": "2. Discovery",
+    "verified_live_on": "2026-10-16",
+    "why_it_is_good": "A manufacturer's own how-to: a 3 minute 3 second step-by-step CPVC installation video ('Fitting Preparation' is the first on-screen caption), on the official channel (4.98K subscribers, 194 videos, linked to ashirvad.com). The channel also carries an 'Installation Guide: Ashirvad's Complete Ground-to-Root (Agriculture) Water' video and plumber testimonials in regional languages. Shows that useful how-to content keeps being found long after it is posted. Channel and video confirmed via YouTube oEmbed (author 'Ashirvad by aliaxis').",
+    "screenshots": [
+      "assets/img/s01/youtube-ashirvad-cpvc-installation.png",
+      "assets/img/s01/youtube-ashirvad-channel.png"
+    ],
+    "use_on": ["map slide, Discovery layer expanded (YouTube)"]
+  },
+  {
+    "id": "s01-ex-mns-plumbing-instagram",
+    "name": "M.N's Plumbing and Renovation, Pune (Instagram @mnsplumbingpune)",
+    "url": "https://www.instagram.com/mnsplumbingpune/",
+    "platform": "Instagram",
+    "layer": "2. Discovery",
+    "verified_live_on": "2026-10-16",
+    "why_it_is_good": "A real Pune plumbing contractor using Instagram the way the session recommends: bio states what and where ('Pune's trusted service provider of all kinds of Commercial/Residential Plumbing, Tiling and Renovation services', established 1998), story highlights sorted by Residential and Commercial, posts showing finished bathroom and concealed-pipe work, and customer review graphics with the business phone on each. 174 followers: a small account doing the right things.",
+    "screenshots": [],
+    "capture_note": "Instagram shows a sign-up overlay to a logged-out browser, so no screenshot is shipped (rule 5). A reference capture with the overlay is at .work/research-01/ig-mnsplumbingpune.png for the builder's eyes only. Build an Instagram-style mockup labelled 'illustrative' using the real name, bio and highlight structure above, with Sharma-style neutral work photos (assets/img/s01/photos/).",
+    "use_on": ["journey step 3: checks past work on Instagram (mockup)", "map slide, Discovery layer expanded (Instagram)"]
+  }
+]
