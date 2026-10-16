@@ -12,7 +12,7 @@
 .journey__shot { position: absolute; inset: 0; opacity: 0; transition: opacity 0.4s ease; }
 .journey__shot.is-on { opacity: 1; }
 .journey__shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.journey__shot--crop { display: flex; justify-content: center; align-items: flex-start; background: #fff; }
+.journey__shot--crop { display: block; background: #fff; }
 .journey__shot--crop img { width: auto; height: auto; object-fit: none; }
 .journey__cap { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 16px; font-size: 24px; color: #fff; background: rgba(26,26,26,0.72); line-height: 1.3; }
 
@@ -36,3 +36,24 @@
 .facts { list-style: none; display: grid; gap: 16px; font-size: 30px; }
 .facts li { display: grid; grid-template-columns: 220px 1fr; gap: 24px; border-top: 1px solid var(--line); padding-top: 12px; }
 .facts b { color: var(--brown); font-weight: 600; }
+
+/* Offline mirror: one row per layer, offline on the left, online on the right */
+.mirror { display: grid; }
+.mirror__head, .mirror__row { display: grid; grid-template-columns: 240px 1fr 1fr; gap: 48px; align-items: baseline; padding: 16px 0; border-top: 1px solid var(--line); }
+.mirror__head { border-top: 0; font-size: 24px; font-weight: 600; color: var(--grey); }
+.mirror__row { font-size: 30px; line-height: 1.3; }
+.mirror__layer { font-family: Montserrat, sans-serif; font-weight: 700; color: var(--brown); }
+.mirror__row > span:nth-child(3) { font-weight: 500; color: var(--ink); }
+.mirror--q .mirror__head, .mirror--q .mirror__row { grid-template-columns: 300px 1fr 1fr; padding: 22px 0; }
+
+/* Journey step 3: Instagram-style mockup inside the picture box */
+.journey__shot--ig { background: #fff; display: flex; justify-content: center; }
+.journey__shot--ig .plat { width: 460px; font-size: 20px; border: 0; box-shadow: none; }
+.journey__cap a { color: inherit; }
+
+/* Which one would you call: the poll options under both listings */
+.which__options { list-style: none; display: flex; gap: 40px; margin-top: 12px; font-size: 26px; }
+.which__options li { display: flex; align-items: center; gap: 12px; }
+.journey__shot--crop img { object-fit: fill; }
+.which .mock--before .plat { font-size: 21px; }
+.which .two-up__label { margin-bottom: 8px; }
