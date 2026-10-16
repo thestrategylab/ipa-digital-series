@@ -390,7 +390,7 @@
     var steps = journey.querySelectorAll('.journey__step');
     var shots = journey.querySelectorAll('.journey__shot');
     function sync() {
-      var current = 0;
+      var current = 1; // show the first picture before any click so the panel is never empty
       steps.forEach(function (s) { if (s.classList.contains('is-revealed')) current = parseInt(s.getAttribute('data-shot'), 10); });
       shots.forEach(function (sh) { sh.classList.toggle('is-on', parseInt(sh.getAttribute('data-shot'), 10) === current); });
     }
