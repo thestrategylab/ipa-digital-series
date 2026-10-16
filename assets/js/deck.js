@@ -233,12 +233,46 @@
         Array.prototype.forEach.call(poll.querySelectorAll('.poll__option[data-correct]'), function (o) { o.classList.toggle('is-correct', on); });
       }
     });
+    group.forEach(function (e) { countupsIn(e).forEach(function (c) { countup(c, on && animate); }); });
     if (on && animate && gsapOk) {
       window.gsap.fromTo(group, { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.45, stagger: 0.07, ease: 'power3.out', clearProps: 'opacity,transform', overwrite: true });
     } else if (gsapOk) {
       window.gsap.set(group, { clearProps: 'opacity,transform' });
     }
   }
+  /* Count-up numbers: data-countup on the element that holds the figure.
+     The first number in its text (1,002.85 or 59 or 71,621) counts from 0
+     over 600ms when the element is revealed or its slide arrives; the text
+     always ends exactly as written, so grouping and decimals are kept. */
+  function countupParse(text) {
+    var m = /(\d[\d,]*)(\.(\d+))?/.exec(text);
+    if (!m) return null;
+    return { start: m.index, end: m.index + m[0].length, val: parseFloat(m[1].replace(/,/g, '') + (m[2] || '')), dec: m[3] ? m[3].length : 0, grouped: m[1].indexOf(',') >= 0 };
+  }
+  function countupFormat(v, p) {
+    var s = v.toFixed(p.dec);
+    if (p.grouped) { var parts = s.split('.'); parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ','); s = parts.join('.'); }
+    return s;
+  }
+  function countup(el, animate) {
+    if (el._cuText == null) el._cuText = el.textContent;
+    var text = el._cuText, p = countupParse(text);
+    if (el._cuTween) { el._cuTween.kill(); el._cuTween = null; }
+    if (el._cuTimer) { clearTimeout(el._cuTimer); el._cuTimer = null; }
+    if (!p || !animate || !gsapOk) { el.textContent = text; return; }
+    var o = { v: 0 };
+    var write = function () { el.textContent = text.slice(0, p.start) + countupFormat(o.v, p) + text.slice(p.end); };
+    var finish = function () { if (el._cuTween) { el._cuTween.kill(); el._cuTween = null; } if (el._cuTimer) { clearTimeout(el._cuTimer); el._cuTimer = null; } el.textContent = text; };
+    write();
+    el._cuTween = window.gsap.to(o, { v: p.val, duration: 0.6, ease: 'power2.out', onUpdate: write, onComplete: finish });
+    /* safety: if animation frames stall (hidden tab, throttled window), the figure still lands on the written text */
+    el._cuTimer = setTimeout(finish, 1000);
+  }
+  function countupsIn(el) {
+    var list = el.matches && el.matches('[data-countup]') ? [el] : [];
+    return list.concat(Array.prototype.slice.call(el.querySelectorAll('[data-countup]')));
+  }
+
   function setSteps(s, n, animate) {
     var st = stepsOf(s);
     n = Math.max(0, Math.min(n, st.length));
@@ -269,7 +303,9 @@
       window.gsap.to(from, { opacity: 0, duration: 0.3, ease: 'power2.out', onComplete: function () { from.classList.remove('is-leaving'); window.gsap.set(from, { clearProps: 'opacity' }); } });
       window.gsap.fromTo(to, { opacity: 0, y: 28 * dir }, { opacity: 1, y: 0, duration: 0.45, ease: 'power3.out', clearProps: 'opacity,transform' });
     }
-    progressBar.style.width = ((i + 1) / slides.length * 100).toFixed(2) + '%';
+    var animIn = changed && opts.animate !== false && gsapOk && mode === 'deck';
+    countupsIn(to).forEach(function (c) { if (!c.closest('[data-reveal]')) countup(c, animIn); });
+    progressBar.style.transform = 'scaleX(' + ((i + 1) / slides.length).toFixed(4) + ')';
     writeHash(i);
     remember(i);
     deckEl.dispatchEvent(new CustomEvent('slidechange', { detail: { index: i, slide: to } }));

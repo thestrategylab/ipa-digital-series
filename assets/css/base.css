@@ -19,7 +19,7 @@
   --brown: #54453E;
   --brown-2: #6B574F;          /* hover on brown */
   --brown-soft: #8C7B72;       /* muted brown for unlit map layers */
-  --grey: #756B64;             /* caption text: brand warm grey deepened so small text reaches 4.5:1 on paper */
+  --grey: #6E645D;             /* caption text: brand warm grey deepened to 5.2:1 on paper and 5.7:1 on white */
   --warm-grey: #9B9189;        /* the brand warm grey, for decoration and hairlines only */
   --grey-2: #C9C1BA;           /* rules */
   --line: rgba(84, 69, 62, 0.16);
@@ -89,8 +89,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 button { cursor: pointer; }
 a { color: var(--brown); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; text-decoration-color: var(--line-strong); }
 a:hover { text-decoration-color: currentColor; }
-h1, h2, h3, h4 { font-weight: 700; color: var(--brown); line-height: 1.1; margin: 0; letter-spacing: -0.015em; text-wrap: balance; }
-h3, h4 { font-weight: 600; }
+h1, h2, h3, h4 { font-weight: 700; color: var(--brown); line-height: 1.15; margin: 0; letter-spacing: -0.015em; text-wrap: balance; }
+h3, h4 { font-weight: 600; line-height: 1.25; }
 p { margin: 0; }
 ul, ol { margin: 0; padding: 0; }
 figure { margin: 0; }
@@ -110,13 +110,14 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
    1920x1080 stage. Component sizes below use em so they follow their
    container's font-size in both places.
    -------------------------------------------------------------------------- */
-.display { font-size: clamp(2.5rem, 6vw, 5.25rem); line-height: 0.98; letter-spacing: -0.025em; }
+.display { font-size: clamp(2.5rem, 6vw, 5.25rem); line-height: 1.02; letter-spacing: -0.025em; }
 .h1 { font-size: clamp(2.1rem, 4.5vw, 3.6rem); }
 .h2 { font-size: clamp(1.7rem, 3vw, 2.5rem); }
 .h3 { font-size: clamp(1.2rem, 1.8vw, 1.5rem); }
-.lede { font-size: clamp(1.15rem, 1.7vw, 1.45rem); line-height: 1.45; color: var(--brown); font-weight: 400; max-width: 34em; }
+.lede { font-size: 1.3rem; line-height: 1.5; color: var(--brown); font-weight: 400; max-width: 34em; }
+@media (max-width: 640px) { .lede { font-size: 1.15rem; } }
 .measure { max-width: 66ch; }
-.caption, .source { color: var(--grey); font-size: 0.78em; line-height: 1.4; }
+.caption, .source { color: var(--grey); font-size: 0.78em; line-height: 1.45; }
 .muted { color: var(--grey); }
 .ink { color: var(--ink); }
 .brown { color: var(--brown); }
@@ -185,7 +186,7 @@ kbd, .kbd {
   border: solid var(--brown); border-width: 0 2px 2px 0; transform: rotate(45deg);
 }
 .callout__title { font-weight: 700; color: var(--brown); font-size: 0.85em; letter-spacing: 0.02em; margin-bottom: 0.2em; }
-.callout__text { font-size: 1em; line-height: 1.45; }
+.callout__text { font-size: 1em; line-height: 1.5; }
 
 .two-up { display: grid; grid-template-columns: 1fr 1fr; gap: 2em; align-items: start; }
 .two-up--tight { gap: 1.25em; }
@@ -195,7 +196,7 @@ kbd, .kbd {
 
 .source { display: block; margin-top: 0.75em; color: var(--grey); }
 .source a { color: inherit; text-decoration-color: var(--grey-2); word-break: break-word; }
-.source__pub { font-weight: 600; color: var(--brown-soft); }
+.source__pub { font-weight: 600; color: var(--grey); }
 
 /* --------------------------------------------------------------------------
    6. Poll block
@@ -229,7 +230,7 @@ kbd, .kbd {
 .poll--revealed .poll__option.is-correct .poll__key { background: var(--brown); color: var(--white); border-color: var(--brown); }
 .poll__answer { padding-top: 0.5em; border-top: 1px solid var(--line); }
 .poll__figure { font-weight: 700; font-size: 2.6em; line-height: 1; letter-spacing: -0.03em; color: var(--brown); font-variant-numeric: tabular-nums; margin-bottom: 0.25em; }
-.poll__claim { font-size: 1em; line-height: 1.4; max-width: 30em; }
+.poll__claim { font-size: 1em; line-height: 1.45; max-width: 30em; }
 .poll--inline { grid-template-columns: 1fr 1fr; gap: 2em; }
 .poll--inline .poll__q { grid-column: 1 / -1; }
 .poll--inline .poll__answer { border-top: 0; padding-top: 0; }
@@ -314,7 +315,7 @@ kbd, .kbd {
 .plat__tag {
   position: absolute; top: 0.6em; right: 0.6em; z-index: 6;
   padding: 0.25em 0.6em; border-radius: 4px; background: rgba(26, 26, 26, 0.72); color: var(--white);
-  font-family: var(--font); font-size: 0.62em; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; pointer-events: none;
+  font-family: var(--font); font-size: max(0.62em, 12px); font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; pointer-events: none;
 }
 .plat a { color: inherit; text-decoration: none; pointer-events: none; }
 .plat:has(> .gsr__searchbar) .plat__tag, .ba .plat__tag { top: auto; bottom: 0.6em; }
@@ -394,11 +395,11 @@ kbd, .kbd {
 .wa__chat { flex: 1; padding: 0.9em 0.8em; display: flex; flex-direction: column; gap: 0.45em; overflow: hidden;
   background-color: var(--wa-bg);
   background-image: radial-gradient(rgba(84, 69, 62, 0.06) 1px, transparent 1px); background-size: 14px 14px; }
-.wa__day { align-self: center; font-size: 0.68em; padding: 0.3em 0.8em; border-radius: 6px; background: rgba(255, 255, 255, 0.85); color: #54656F; margin-bottom: 0.3em; }
+.wa__day { align-self: center; font-size: max(0.68em, 12px); padding: 0.3em 0.8em; border-radius: 6px; background: rgba(255, 255, 255, 0.85); color: #54656F; margin-bottom: 0.3em; }
 .wa__msg { position: relative; max-width: 82%; padding: 0.45em 0.7em 0.35em; border-radius: 8px; background: var(--white); font-size: 0.86em; line-height: 1.4; color: #111B21; box-shadow: 0 1px 0.5px rgba(11, 20, 26, 0.13); white-space: pre-line; }
 .wa__msg--out { align-self: flex-end; background: var(--wa-out); border-top-right-radius: 2px; }
 .wa__msg--in { align-self: flex-start; border-top-left-radius: 2px; }
-.wa__meta { display: block; text-align: right; font-size: 0.72em; color: #667781; margin-top: 0.15em; }
+.wa__meta { display: block; text-align: right; font-size: max(0.72em, 12px); color: #667781; margin-top: 0.15em; }
 .wa__meta svg { width: 1.2em; height: 1.2em; vertical-align: -0.3em; margin-left: 0.15em; color: var(--wa-tick); }
 .wa__msg b { font-weight: 600; }
 .wa__link { color: #027EB5; text-decoration: underline; }
@@ -451,7 +452,7 @@ kbd, .kbd {
 .li__btn--primary { background: var(--li-blue); color: var(--white); }
 .li__btn--muted { border-color: var(--li-grey); color: var(--li-grey); }
 .li__section { padding: 0.8em 1.1em; border-top: 1px solid #E8E8E8; }
-.li__section h4 { font-family: inherit; color: inherit; font-size: 0.95em; font-weight: 600; margin-bottom: 0.3em; }
+.li__section h4, .li__section-h { font-family: inherit; color: inherit; font-size: 0.95em; font-weight: 600; line-height: 1.3; margin: 0 0 0.3em; }
 .li__section p { font-size: 0.85em; line-height: 1.45; }
 
 /* --------------------------------------------------------------------------
@@ -537,7 +538,7 @@ button.map__btn:focus-visible { outline: 2px solid var(--brown); outline-offset:
 .is-highlight .map__node { background: var(--cyan); border-color: var(--cyan); transform: scale(1.25); }
 .map__n { display: block; margin-top: 0.9em; font-size: 3.4em; font-weight: 300; line-height: 1; color: var(--brown); letter-spacing: -0.03em; font-variant-numeric: tabular-nums; transition: color var(--t-base); }
 .map__name { display: block; margin-top: 0.35em; font-size: 1.3em; font-weight: 600; color: var(--brown); line-height: 1.15; letter-spacing: -0.01em; transition: color var(--t-base); }
-.map__meaning { display: block; margin-top: 0.4em; font-size: 0.95em; line-height: 1.4; color: var(--ink); max-width: 15em; transition: color var(--t-base); }
+.map__meaning { display: block; margin-top: 0.4em; font-size: 0.95em; line-height: 1.5; color: var(--ink); max-width: 15em; transition: color var(--t-base); }
 .map__session { display: block; margin-top: 0.7em; font-size: 0.8em; font-weight: 600; color: var(--grey); letter-spacing: 0.01em; }
 .map__layer:not(.is-lit) .map__n, .map__layer:not(.is-lit) .map__name { color: var(--brown-soft); }
 .map__layer:not(.is-lit) .map__meaning { color: var(--grey); }
@@ -554,9 +555,9 @@ button.map__btn:hover .map__name { text-decoration: underline; text-decoration-t
   padding: 1.5em 1.75em; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); box-shadow: var(--shadow-1); margin-bottom: 0.5em;
 }
 .map__detail-h { font-weight: 700; color: var(--brown); font-size: 1.15em; line-height: 1.2; }
-.map__detail-p { margin-top: 0.4em; font-size: 0.95em; line-height: 1.45; color: var(--ink); }
+.map__detail-p { margin-top: 0.4em; font-size: 0.95em; line-height: 1.5; color: var(--ink); }
 .map__platforms { list-style: none; display: flex; flex-wrap: wrap; gap: 0.9em 1.75em; align-content: start; }
-.map__platform { display: flex; align-items: center; gap: 0.7em; font-size: 0.95em; font-weight: 500; color: var(--ink); line-height: 1.25; }
+.map__platform { display: flex; align-items: center; gap: 0.7em; font-size: 0.95em; font-weight: 500; color: var(--ink); line-height: 1.35; }
 .map__platforms--inline { flex-direction: column; align-items: flex-start; gap: 0.55em; margin-top: 1em; }
 .map__platforms--inline .map__platform { font-size: 0.9em; }
 .map__platforms--inline .logo-tile { font-size: 0.85em; }

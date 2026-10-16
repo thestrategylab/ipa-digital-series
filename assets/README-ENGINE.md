@@ -52,7 +52,14 @@ The stage is 1920 x 1080 and scales to the window with a CSS transform. Write ev
 | `data-title="..."` | Overrides the title the notes view picks up (it otherwise reads the slide's first heading) |
 | `data-chrome="none"` | Drops the footer logos and slide count (use only if a slide is a full-bleed image) |
 
-Slide modifiers: `slide--title`, `slide--closing`, `slide--section` (big numeral divider), `slide--white` (white instead of paper).
+Slide modifiers: `slide--title`, `slide--closing`, `slide--section` (big numeral divider), `slide--white` (white instead of paper), `slide--dark` (TSL Brown ground, paper type; `slide--black` for near-black), `slide--photo` (full-bleed photo).
+
+### Contrast beats (the brief's "more energy, same restraint")
+
+- **Dark slide.** `<section class="slide slide--dark">` and write the slide as usual: titles, statements, lists, polls and sources all switch to paper type. The footer logos sit on a paper plate automatically. One or two per deck, at the big idea and at the Sharma reveal. A "pause and think" slide before a poll is a dark slide holding only `<p class="statement statement--xl">` inside `slide__body slide__body--center`.
+- **Full-bleed photo.** `<section class="slide slide--photo"><img class="photo__img" src="..." alt="..."><div class="photo__text"><p class="photo__line">One line.</p><p class="photo__credit">Photo: Name, <a href="...">Pexels</a></p></div></section>`. The line sits on a flat dark band (no gradients). Real, credited photos only, recorded in `data/credits.json`.
+- **Count-up numbers.** Put `data-countup` on the element whose text holds the figure (`<p class="poll__figure" data-countup>1,002.85 million</p>`, `<span class="bignum" data-countup>59%</span>`). The first number in the text counts from zero over 600ms when the element is revealed, or when its slide arrives if it is not inside a reveal. Grouping and decimals are kept and the text always ends exactly as written. Put the attribute on the innermost element that holds only text; it rewrites `textContent`.
+- **The ring.** `<span class="ring" style="left:-0.5em; top:-0.4em; width:10em; height:2em" aria-hidden="true"></span>` inside any `position: relative` parent draws a hand-drawn-feeling circle around the one thing to look at on a screenshot or shell. `ring--paper` on dark grounds; `ring--cyan` counts as the slide's one cyan element. Add `data-reveal` to draw it on a click.
 
 ### Layout helpers inside a slide
 
@@ -80,7 +87,7 @@ When the deck and the notes are open in the same browser, the notes follow the d
 
 ### Script API
 
-`IPADeck.go(n)`, `IPADeck.next()`, `IPADeck.prev()`, `IPADeck.current()`, `IPADeck.count`, `IPADeck.setMode('overview' | 'print' | 'deck')`, `IPADeck.initComponents(root)` (wires any `.ba` sliders you add later). The deck element fires `slidechange` with `detail.index` and `detail.slide`.
+`IPADeck.go(n)`, `IPADeck.next()`, `IPADeck.prev()`, `IPADeck.current()`, `IPADeck.count`, `IPADeck.setMode('overview' | 'print' | 'deck')`, `IPADeck.initComponents(root)` (wires any `.ba` sliders you add later). The deck element fires `slidechange` with `detail.index` and `detail.slide`. The progress line at the bottom is a `transform: scaleX()` on `.deck__progress-bar`, not a width change.
 
 ## The map (`map.js`)
 
@@ -127,7 +134,7 @@ All component sizes are em based, so they scale with the container's font-size. 
 | Google search result | `plat` wrapping `gsr__searchbar`, then either `gsr` (web result: `gsr__site`, `gsr__favicon`, `gsr__sitename`, `gsr__url`, `gsr__title`, `gsr__snippet`; add `gsr--ad` and `gsr__sponsored` for an ad) or `gsr__localpack` with `gsr__local`, `gsr__local-name`, `gsr__local-line`, `gsr__local-action` |
 | WhatsApp chat | `plat wa`, `wa__header`, `wa__avatar`, `wa__name`, `wa__verified`, `wa__status`, `wa__chat`, `wa__day`, `wa__msg wa__msg--in` or `--out` (line breaks are kept), `wa__meta`, `wa__link`, `wa__input` |
 | Instagram profile | `plat ig`, `ig__top`, `ig__head`, `ig__avatar` (`ig__avatar--plain` for no story ring), `ig__stats` with `ig__stat`, `ig__bio`, `ig__buttons` with `ig__btn` and `ig__btn--primary`, `ig__tabs`, `ig__grid` (3 or 6 images) or `ig__empty` |
-| LinkedIn profile | `plat li`, `li__banner` (`li__banner--brand` for navy), `li__avatar`, `li__name`, `li__headline`, `li__meta`, `li__buttons` with `li__btn`, `li__btn--primary`, `li__btn--muted`, `li__section` |
+| LinkedIn profile | `plat li`, `li__banner` (`li__banner--brand` for navy), `li__avatar`, `li__name`, `li__headline`, `li__meta`, `li__buttons` with `li__btn`, `li__btn--primary`, `li__btn--muted`, `li__section` with a `p.li__section-h` heading (a `p`, not an `h4`, so the slide's heading order stays intact) |
 | Real screenshot | `shot` wrapping an `img` and a `shot__caption` with the page URL |
 | Who does what | `wdw`, three `wdw__col` each with `wdw__role` and a `ul`, then `wdw__questions` with an `ol` |
 | Logo tile | `logo-tile` (an `img`), `logo-tile--drawn` (an inline SVG, stroke 2) |
@@ -150,7 +157,7 @@ One small cyan element per slide at most: a `sig` underline under one word, one 
 
 ## Design decisions made here
 
-- Caption grey is `#756B64` (`--grey`), a deeper warm grey than the brand's `#9B9189`, so caption text reaches 4.5:1 on paper. The brand warm grey is kept as `--warm-grey` for hairlines and decoration.
+- Caption grey is `#6E645D` (`--grey`), a deeper warm grey than the brand's `#9B9189`, so caption text reaches 5.2:1 on paper and 5.7:1 on white. The brand warm grey is kept as `--warm-grey` for hairlines and decoration only, never for text. `--brown-soft` is for the unlit map layers (large type) only, never for small text.
 - Platform shells use the platforms' own type (Roboto or the system font) and their own colours, including greys lighter than ours, because they are faithful mockups. They are always labelled illustrative.
 - Fonts come from Google Fonts as the brief asks, with Helvetica Neue and Arial as the fallbacks when offline.
 - Both logos sit in every slide's footer, injected by `deck.js`, so no slide can forget them.

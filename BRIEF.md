@@ -52,6 +52,23 @@ Sharma Plumbing Works, Pune. Founded 2006 by Rajesh Sharma, now run with his son
 
 "Before" states are always Sharma's. "After" states are always Sharma's. We never show a real member's or real competitor's weak profile. Real businesses appear only as good examples.
 
+## Dhruv's feedback after seeing the Session 1 deck (applies to every deck, and Session 1 must be updated to match)
+
+"The content is right, but it is a little boring. I want a slide that explains what Discovery and the other layers mean in the offline world, then compares that to how the same people behave online."
+
+What this means in practice:
+
+1. **The offline mirror slide (new, every session).** Right after the map recap, one slide titled on the lines of "You already do all five. Offline." A two-column build-up, one row per layer, revealed row by row: the offline version this audience has run for 30 years on the left, the online version on the right. Session 1 shows all five rows; later sessions show the full table with their layer highlighted and the others quiet. Use this mapping, in these words or better:
+   - Home: the office, the signboard, the visiting card. Online: the Google profile, the website, WhatsApp Business.
+   - Discovery: word of mouth, the architect who recommends you, the trade fair stall, the Yellow Pages and JustDial listing. Online: Google search, LinkedIn, Instagram, YouTube, reviews.
+   - Paid reach: the newspaper ad, the hoarding on the highway, sponsoring the chapter dinner. Online: Google, Meta and LinkedIn ads, aimed at one city and one kind of buyer.
+   - Relationship: the diary of old customers, the Diwali calendar, dropping in on site. Online: the WhatsApp list, the service reminder, the review request.
+   - Measurement: the ledger and the gut feel. Online: five numbers once a month.
+   The point the notes make: the customer did not change what they do, they changed where they do it. Then one line of evidence: the same person who once asked a neighbour now asks a phone first (use a sourced fact from the session's sources file where one fits; do not invent one).
+2. **Offline people vs online people, same people.** Wherever a session describes buyer behaviour, show the offline habit and the online habit side by side for the same buyer (the architect, the society secretary, the hospital's facilities head), not "offline customers" and "online customers" as two groups.
+3. **More energy, same restraint.** The decks should feel alive, not like a report on a screen. Ways to do that within rule 8: full-bleed photo slides with one line of type over them (real, credited photos of Indian sites, bathrooms, pipework, trade fairs); numbers that count up on reveal (GSAP, 600ms); one or two dark slides per deck as a contrast beat (TSL Brown or near-black background, paper type) placed at the big idea and the Sharma reveal; real screenshots shown large, cropped to the part that matters, with a hand-drawn-feeling circle or underline on the one thing to look at; the journey and comparison slides as build-ups that change the picture on each click; a "pause and think" slide before each poll with only the question in big type. Never cyan to add energy. Never more than one idea per slide. Never emoji, clip art, gradients or stock-looking handshake photos.
+4. **Titles that say something.** Slide titles are claims ("The architect checked you online before she called"), not labels ("The journey").
+
 ## Rules that apply to every file
 
 1. **Plain English.** No marketing jargon. Banned on slides and in notes: funnel, CRO, CPL, CPA, CTR, ROAS, pixel, conversion rate, KPI, SEO (say "showing up on Google"), engagement rate, impressions (say "times seen"), CTA, retargeting (say "showing ads to people who already visited"), omnichannel, synergy. If a platform's own screen shows the word, explain it in plain words next to it.
@@ -197,7 +214,7 @@ Big idea: you do not need a dashboard. You need five numbers once a month.
 
 ## Review bar (both reviewers use this)
 
-Design reviewer, per deck: screenshot every slide at 1920x1080 and 1280x720 with headless Chrome (`"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --screenshot=... --window-size=1920,1080 "file://.../index.html#N"`) and look at them. Fail on: text cut off or overlapping, body text under 24px equivalent, more than one cyan element on a slide, cyan backgrounds or headlines, emoji, clip art, gradients, a slide with more than one idea, missing footer logos, broken images, console errors, a reveal that never shows, inconsistent spacing or type scale across slides, anything that looks like a template rather than a crafted deck. Also check index.html and notes.html render on a 390px wide phone.
+Design reviewer, per deck: first confirm the deck meets "Dhruv's feedback after seeing the Session 1 deck" above: the offline mirror slide exists after the map recap, buyer behaviour is shown offline and online for the same person, there are at least two full-bleed photo slides, at least one dark contrast slide, numbers count up, titles are claims. Missing any of these is a fail with a concrete fix. Then screenshot every slide at 1920x1080 and 1280x720 with headless Chrome (`"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --screenshot=... --window-size=1920,1080 "file://.../index.html#N"`) and look at them. Fail on: text cut off or overlapping, body text under 24px equivalent, more than one cyan element on a slide, cyan backgrounds or headlines, emoji, clip art, gradients, a slide with more than one idea, missing footer logos, broken images, console errors, a reveal that never shows, inconsistent spacing or type scale across slides, anything that looks like a template rather than a crafted deck. Also check index.html and notes.html render on a 390px wide phone.
 
 Fact and language reviewer, per deck: every number on every slide traced to `data/sources.json` and the source page re-opened and the figure confirmed; banned words; em and en dashes (grep for U+2014 and U+2013 in all files); real companies only as good examples; no dates, TBC, placeholders; Sharma details consistent with this brief; polls present (guess the number, what do you think, which one would you call); who does what and one thing to check present; notes.html has minute marks and matches the slides; polls.md matches the slides; all links resolve (curl HEAD 200 or 301/302).
 

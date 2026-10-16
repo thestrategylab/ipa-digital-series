@@ -13,19 +13,19 @@
     .site-head { position: sticky; top: 0; z-index: 10; background: rgba(247, 245, 243, 0.92); backdrop-filter: saturate(1.2) blur(10px); -webkit-backdrop-filter: saturate(1.2) blur(10px); border-bottom: 1px solid var(--line); }
     .site-head .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 68px; }
     .site-head nav { display: flex; gap: 4px; }
-    .site-head nav a { padding: 8px 12px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 15px; color: var(--brown); }
+    .site-head nav a { padding: 10px 12px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 15px; color: var(--brown); }
     .site-head nav a:hover { background: var(--white); }
     .site-head .lockup__tsl { height: 36px; }
     .site-head .lockup__ipa { height: 30px; }
 
     .hero { padding: clamp(56px, 9vw, 128px) 0 clamp(40px, 6vw, 80px); }
     .hero h1 { max-width: 15ch; }
-    .hero .lede { margin-top: 28px; max-width: 42em; font-size: clamp(1.1rem, 1.5vw, 1.35rem); color: var(--ink); }
+    .hero .lede { margin-top: 28px; max-width: 42em; color: var(--ink); }
     .hero__facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px 40px; margin-top: clamp(40px, 5vw, 72px); padding-top: 28px; border-top: 1px solid var(--line-strong); }
-    .hero__facts p { font-size: 1rem; line-height: 1.5; color: var(--brown); max-width: 24em; }
+    .hero__facts p { font-size: 1rem; line-height: 1.55; color: var(--brown); max-width: 24em; }
     .hero__facts b { display: block; font-size: 1.15rem; font-weight: 700; color: var(--brown); margin-bottom: 4px; }
 
-    .section { padding: clamp(48px, 7vw, 96px) 0; border-top: 1px solid var(--line); }
+    .section { padding: 96px 0; border-top: 1px solid var(--line); }
     .section__head { max-width: 46em; margin-bottom: clamp(28px, 4vw, 48px); }
     .section__head p { margin-top: 14px; color: var(--ink); max-width: 38em; }
     .section--map .map { margin-top: 8px; }
@@ -35,14 +35,14 @@
     .session:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); }
     .session__n { font-size: 3rem; font-weight: 300; line-height: 1; color: var(--brown); letter-spacing: -0.04em; font-variant-numeric: tabular-nums; grid-row: 1 / span 3; padding-top: 4px; }
     .session__title { font-size: 1.35rem; line-height: 1.15; }
-    .session__line { margin-top: 10px; font-size: 1rem; color: var(--ink); line-height: 1.5; }
+    .session__line { margin-top: 10px; font-size: 1rem; color: var(--ink); line-height: 1.55; }
     .session__foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 18px; }
     .session__foot .chip { font-size: 0.75rem; margin-right: auto; }
     .session__foot .btn { font-size: 0.85rem; }
 
     .how { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
     .how h3 { font-size: 1.15rem; margin-bottom: 12px; padding-top: 14px; border-top: 2px solid var(--brown); }
-    .how p, .how li { font-size: 1rem; line-height: 1.55; }
+    .how p, .how li { font-size: 1rem; line-height: 1.6; }
     .how ul { list-style: none; display: grid; gap: 8px; }
     .how li { display: grid; grid-template-columns: 5.4em 1fr; gap: 12px; align-items: baseline; }
     .how kbd { font-size: 0.78rem; }
@@ -59,6 +59,7 @@
     .site-foot .lockup__ipa { height: 36px; }
 
     @media (max-width: 860px) {
+      .section { padding: 56px 0; }
       .sessions { grid-template-columns: 1fr; }
       .how { grid-template-columns: 1fr; gap: 28px; }
       .hero__facts { grid-template-columns: 1fr; gap: 18px; }
