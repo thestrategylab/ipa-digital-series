@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Presenter notes</title>
+  <!--
+    The notes are built from the slides in index.html, so they never drift from the deck.
+    This page hands over to index.html?notes (the engine renders the notes view from the
+    same document). That works from file:// and from GitHub Pages without any fetch.
+    Keep this file exactly as it is in every session folder.
+  -->
+  <meta http-equiv="refresh" content="0; url=index.html?notes">
+  <script>location.replace('index.html?notes' + location.hash);</script>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+</head>
+<body>
+  <p style="padding:24px;font-size:16px">Opening the presenter notes. If nothing happens, <a href="index.html?notes">open them here</a>.</p>
+</body>
+</html>

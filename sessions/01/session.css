@@ -1,0 +1,38 @@
+/* Session-local styles. Shared assets are never edited; anything a session
+   needs beyond base.css and deck.css lives here, scoped to this deck. */
+
+/* Journey: six steps on the left, one picture on the right that follows the step */
+.journey { display: grid; grid-template-columns: 860px 1fr; gap: 56px; align-items: start; }
+.journey__steps { display: grid; gap: 10px; }
+.journey__step { display: grid; grid-template-columns: 56px 1fr; gap: 16px; align-items: baseline; }
+.journey__n { font-size: 40px; font-weight: 300; line-height: 1; color: var(--brown); font-variant-numeric: tabular-nums; }
+.journey__t { font-size: 26px; line-height: 1.28; }
+.journey__layer { display: block; font-size: 24px; color: var(--grey); margin-top: 2px; }
+.journey__box { position: relative; width: 100%; height: 600px; border-radius: 12px; overflow: hidden; background: #fff; border: 1px solid var(--line); }
+.journey__shot { position: absolute; inset: 0; opacity: 0; transition: opacity 0.4s ease; }
+.journey__shot.is-on { opacity: 1; }
+.journey__shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.journey__shot--crop { display: flex; justify-content: center; align-items: flex-start; background: #fff; }
+.journey__shot--crop img { width: auto; height: auto; object-fit: none; }
+.journey__cap { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 16px; font-size: 24px; color: #fff; background: rgba(26,26,26,0.72); line-height: 1.3; }
+
+/* Cropped real screenshot: a fixed window over the knowledge panel */
+.crop { overflow: hidden; border-radius: 10px; border: 1px solid var(--line); background: #fff; }
+.crop img { display: block; max-width: none; }
+
+/* Leak slide */
+.leak__facts { display: grid; gap: 20px; font-size: 26px; }
+.leak__facts p { line-height: 1.35; }
+.map-tight .map, .map-tight [data-map] { font-size: 20px; }
+
+/* Self-check tick list */
+.check { list-style: none; display: grid; gap: 14px; }
+.check__row { display: flex; align-items: center; gap: 20px; font-size: 30px; cursor: pointer; }
+.check__box { width: 40px; height: 40px; border: 2px solid var(--brown); border-radius: 8px; flex: none; display: grid; place-items: center; background: #fff; }
+.check__row.is-on .check__box::after { content: ""; width: 20px; height: 20px; border-radius: 4px; background: var(--brown); }
+.check__score { font-size: 60px; font-weight: 700; color: var(--brown); letter-spacing: -0.03em; }
+
+/* Sharma intro facts */
+.facts { list-style: none; display: grid; gap: 16px; font-size: 30px; }
+.facts li { display: grid; grid-template-columns: 220px 1fr; gap: 24px; border-top: 1px solid var(--line); padding-top: 12px; }
+.facts b { color: var(--brown); font-weight: 600; }
