@@ -62,7 +62,7 @@ main { padding: clamp(40px, 6vw, 80px) 0 clamp(40px, 6vw, 72px); }
 .wdw-list li { padding-left: 0; }
 .wdw-list b { color: var(--brown); }
 
-.check { margin-top: 26px; padding: 16px 20px; border-left: 3px solid var(--brown); background: var(--white); border-radius: 0 var(--r-sm) var(--r-sm) 0; }
+.check { margin-top: 26px; padding: 16px 20px; border: 1px solid var(--line-strong); background: var(--white); border-radius: var(--r-sm); }
 .check p { margin: 0 0 6px; }
 .check p:last-child { margin-bottom: 0; }
 .check b { color: var(--brown); }
